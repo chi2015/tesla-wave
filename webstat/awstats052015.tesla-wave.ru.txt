@@ -1,0 +1,514 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201505 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.tesla-wave.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2652                
+POS_VISITOR 10098               
+POS_DAY 14211               
+POS_DOMAIN 3475                
+POS_LOGIN 3708                
+POS_ROBOT 3863                
+POS_WORMS 4312                
+POS_EMAILSENDER 4443                
+POS_EMAILRECEIVER 4586                
+POS_SESSION 14974               
+POS_SIDER 15163               
+POS_FILETYPES 4721                
+POS_DOWNLOADS 4942                
+POS_OS 4990                
+POS_BROWSER 5164                
+POS_SCREENSIZE 6116                
+POS_UNKNOWNREFERER 6190                
+POS_UNKNOWNREFERERBROWSER 6484                
+POS_ORIGIN 6587                
+POS_SEREFERRALS 6729                
+POS_PAGEREFS 6898                
+POS_SEARCHWORDS 7298                
+POS_KEYWORDS 7463                
+POS_MISC 2316                
+POS_ERRORS 7537                
+POS_CLUSTER 3564                
+POS_SIDER_404 7627                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150601003556 1 0 56400151495727
+FirstTime 0
+LastTime 20150531201450
+LastUpdate 20150601011010 1 0 0 0 0
+TotalVisits 137                 
+TotalUnique 96                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 103                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 79 656475 18 67 506010
+1 5 5 208670 12 27 134747
+2 10 104 2629459 11 44 832998
+3 13 61 1010717 6 20 251552
+4 7 7 292138 13 67 2077486
+5 5 197 3330774 13 29 375226
+6 5 91 1796775 8 29 563034
+7 6 22 369550 12 37 877043
+8 11 189 3569106 14 53 1454095
+9 16 52 1645190 5 43 1323218
+10 551 751 72385302 14 691 6615247
+11 3 48 381848 10 60 1142127
+12 3 8 244348 14 66 938254
+13 3 91 1721724 11 52 963133
+14 3 3 125202 15 49 921647
+15 91 290 12277197 11 204 4141257
+16 39 294 6352596 6 128 3329467
+17 8 151 2413301 25 52 962094
+18 5 103 617643 16 56 877593
+19 2 23 207249 11 48 1158333
+20 12 290 4820657 9 42 343641
+21 55 350 9505216 2 117 3009117
+22 1 5 57010 1 1 41734
+23 2 72 2150328 4 39 1326284
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 865 3286 128768475
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+no_user_agent 954 14048528 20150531150627 0
+googlebot 188 4605779 20150531055226 0
+yandex 108 12641156 20150531081415 0
+bot[\s_+:,\.\;\/\\-] 89 1273075 20150530052954 0
+favicon 8 1238758 20150528120638 0
+nutch 3 125202 20150527232455 0
+surveybot 2 83468 20150519235303 0
+[\s_+:,\.\;\/\\-]bot 1 41734 20150502141002 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 180 124039 0 0
+eot 4 93544 0 0
+png 674 2238836 0 0
+ttf 16 1269824 0 0
+php 707 82120719 0 0
+html 138 5717558 0 0
+js 525 4204323 0 0
+jpg 1042 32999632 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 12
+linuxandroid 41
+winxp 677
+winlong 68
+winnt 1
+win2000 1
+linuxubuntu 28
+winvista 227
+linux 308
+win7 772
+macosx 1155
+win2003 2
+Unknown 6
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 53
+msie6.0 126
+firefox28.0 6
+chrome37.0.2062.124 1
+safari7.0 1
+firefox2.0.0.1 1
+chrome28.0.1500.95 195
+firefox4.0 2
+firefox18.0 10
+chrome31.0.1650.57 159
+chrome36.0.1985.125 2
+curl 1
+chrome31.0.1650.63 91
+safari8.0.6 71
+opera9.80 126
+msie8.0 106
+chrome43.0.2357.81 121
+chrome42.0.2311.90 269
+chrome39.0.2171.65 2
+firefox2.0.0.9 1
+msie7.0 3
+chrome37.0.2062.120 2
+firefox23.0 1
+chrome27.0.1453 84
+firefox3.6.9 1
+safari8.0 812
+msie9.0 102
+chrome30.0.1599.101 92
+Unknown 1
+chrome37.0.2062.94 1
+chrome43.0.2357.65 1
+firefox32.0 3
+msie5.01 1
+chrome34.0.1847.131 22
+chrome40.0.2214.109 41
+firefox29.0 6
+chrome39.0.2155.0 1
+firefox33.0 2
+mozilla 140
+firefox25.0 33
+firefox37.0 131
+chrome35.0.1916.153 1
+chrome42.0.2311.135 50
+firefox22.0 1
+firefox3.6.28 1
+msie10.0 24
+chrome18.0.1003.1 34
+chrome39.0.2157.2 1
+chrome41.0.2228.0 6
+chrome17.0.963.12 1
+chrome23.0.1271.97 28
+firefox35.0 76
+safari 291
+firefox3.5.7 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+PycURL/7.19.5_libcurl/7.37.0_WinSSL_zlib/1.2.8 20150523143553
+Yo-yo 20150517103031
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20150501180642
+Mozilla/4.0_(compatible;_Synapse) 20150507204721
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Yo-yo 20150517103031
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 83 117
+From1 1 1
+From2 25 31
+From3 14 14
+From4 742 3123
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 4 10
+yandex 21 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://info@tesla-wave.ru 3 3
+http://hostx.ru 2 2
+http://vk.com/away.php 2 2
+http://regidium.ru 2 2
+http://hvd-store.com 1 1
+http://burger-imperia.com 1 1
+http://vk.com/club24408024 1 1
+http://www.axelname.ru/test/ 1 1
+http://m.vk.com/club24408024 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+tesla+wave 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+wave 1
+tesla 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 648 107637
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 51
+/css/common.css 8 -
+/robots.txt 512 -
+/blog/wp-settings.php 1 http://tesla-wave.ru/blog/wp-settings.php
+/manager/ 1 -
+/contact 19 -
+/www.tar.gz 1 -
+/t%20support%20it%20natively,%20but%20you%20can%20overcome%20this%20by%20adding%20a%20script%20reference%20to%20json2.js,%20downloadable%20from%20http://www.json.org/json2.js 4 http://www.tesla-wave.ru/
+/utils.range 1 http://www.tesla-wave.ru/
+/buy 5 http://yandex.ru/clck/jsredir
+/language/en-GB/en-GB.xml 4 -
+/self 1 -
+/parent.location.hash= 1 http://www.tesla-wave.ru/
+/art 17 http://yandex.ru/clck/jsredir
+/published/wbsadmin/html/scripts/balance.php 1 -
+/styles/actions/users/form.css 4 http://tesla-wave.ru/styles/actions/users/form.css
+/wp-admin/admin-ajax.php 1 -
+/wp-content/plugins/db-backup/download.php 1 -
+///contact 1 -
+/file:///C:/Data/Projects/Web/coil/index.html/buy 4 http://tesla-wave.ru
+/about:blank 4 http://tesla-wave.ru
+/gallery 16 http://yandex.ru/clck/jsredir
+/wp-settings.php 1 http://tesla-wave.ru/wp-settings.php
+/wordpress/wp-settings.php 1 http://tesla-wave.ru/wordpress/wp-settings.php
+/www.zip 1 -
+/wp-content/plugins/tinymce-thumbnail-gallery/php/download-image.php 1 -
+/css/nivo-slider.css 8 -
+/system/logs/logs.php 2 -
+/tesla-wave.ru.zip 1 -
+/xml.php 1 -
+/wp-content/force-download.php 1 -
+/video 1 http://info@tesla-wave.ru/video
+/backup.zip 1 -
+/wp-content/plugins/plugin-newsletter/preview.php 1 -
+/wp-content/plugins/ajax-store-locator-wordpress_/sl_file_download.php 1 -
+/public_html.tar.gz 1 -
+/youtube.com 1 http://www.tesla-wave.ru/
+/favicon.ico/.php 1 -
+/demo 1 http://info@tesla-wave.ru/demo
+/wp-content/plugins/filedownload/download.php/ 1 -
+/administrator/ 2 -
+/backup.tar.gz 1 -
+/Call%20me.[set 1 http://www.tesla-wave.ru/
+/public_html.zip 1 -
+/tesla-wave.ru.tar.gz 1 -
+/default.php 3 http://tesla-wave.ru/default.php
+/journal-webfont.eot 1 http://www.tesla-wave.ru/style.css
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 1 -
+/Call%20VBCVal(me.[get 1 http://www.tesla-wave.ru/
+/wp-content/plugins/pica-photo-gallery/picadownload.php 1 -
+/wp-content/themes/estrutura-basica/scripts/download.php 1 -
+/utils.domData.clear 1 http://www.tesla-wave.ru/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 103
+37.112.88.142 536 620 69121489 20150511105110
+85.172.39.232 76 170 8990195 20150507154246
+5.145.245.88 33 121 4007931 20150525211843
+46.8.147.123 30 129 4289168 20150508160941
+109.234.156.66 28 28 1168552 20150531024440
+109.60.184.138 16 121 3565290 20150529211435
+178.88.181.63 8 101 2891433 20150501150503
+82.145.208.130 8 41 733673 20150522091923
+176.59.2.117 8 41 1307606 20150516105906
+144.76.116.119 8 152 2454643 20150514173323
+95.28.77.172 2 90 2239244 20150528131247
+213.136.64.63 1 1 41734 20150526013914
+178.236.143.80 2 74 1536868 20150517053706
+94.198.234.216 1 1 41734 20150523143553
+81.23.150.122 1 1 41734 20150517225541
+37.48.84.7 1 1 41734 20150508212155
+176.193.210.61 1 22 165515 20150521183214
+23.95.43.109 1 1 41734 20150523063414
+92.242.40.37 2 2 83468 20150507204721
+176.9.146.140 1 1 41734 20150516024535
+217.69.133.169 4 10 744581 20150528025134
+176.77.1.212 1 22 165515 20150531185556
+148.251.90.147 1 1 41734 20150518015302
+80.233.200.221 0 3 15276 
+192.3.177.167 1 1 41734 20150525163916
+46.165.193.144 2 32 83468 20150515051958
+88.85.95.125 2 2 83468 20150508191240
+109.120.161.75 1 1 0 20150524062000
+95.84.179.160 1 73 1449157 20150518082433
+130.185.47.71 1 1 41734 20150529150541
+95.220.113.81 1 31 41734 20150521171643
+45.55.133.239 1 6 160880 20150510084738
+87.110.217.204 0 1 0 
+65.54.247.226 1 18 160880 20150506003339
+37.145.13.108 1 71 2108594 20150512230528
+217.12.206.140 1 1 41734 20150504145754
+213.87.130.33 2 71 1625589 20150510081825
+89.178.59.45 1 22 165515 20150529004147
+157.56.1.142 1 22 165515 20150523201202
+95.163.121.202 1 1 41734 20150501201835
+46.150.95.63 1 1 41734 20150513163708
+195.154.168.128 1 1 41734 20150522113143
+66.249.81.159 1 44 1309399 20150502211105
+104.236.220.125 1 6 160880 20150523123227
+62.109.10.18 1 1 41734 20150511085426
+91.192.73.243 2 93 2329505 20150522205904
+37.147.233.27 7 34 636532 20150526031156
+88.198.68.140 1 1 41734 20150505235110
+104.193.9.6 1 1 41734 20150526064609
+87.240.182.142 1 11 41734 20150501180642
+37.146.115.186 1 1 41734 20150524040920
+176.77.125.47 1 13 145165 20150517155831
+178.123.123.6 1 1 41734 20150528214705
+89.28.122.202 1 1 41734 20150508105734
+37.212.131.185 1 1 41734 20150503163537
+94.253.93.23 1 3 41734 20150521185755
+93.81.94.252 1 1 41734 20150512094656
+85.202.228.69 0 3 18391 
+66.249.81.155 0 15 89915 
+157.56.1.66 1 22 165515 20150530205104
+5.165.242.0 1 22 165515 20150512195447
+176.14.45.144 1 31 41734 20150528165423
+80.241.219.59 1 87 1671573 20150510060344
+130.211.103.14 1 1 41734 20150507112341
+93.171.205.23 3 3 125202 20150513144855
+31.134.144.41 2 40 140216 20150508204447
+212.74.196.111 0 1 0 
+188.166.74.40 1 1 41734 20150524073816
+65.55.210.4 1 45 203145 20150514182228
+89.208.147.138 4 4 166936 20150531025827
+94.131.14.16 1 1 41734 20150518043740
+46.188.40.60 2 23 188901 20150504204306
+157.56.1.29 1 22 165515 20150530033325
+109.234.156.187 1 1 41734 20150515004202
+95.25.223.240 1 77 1586657 20150505104049
+46.188.73.167 1 37 60852 20150507165940
+96.47.226.22 1 1 41734 20150502134715
+176.9.38.197 3 3 125202 20150525155229
+195.242.81.40 1 1 41734 20150512082237
+176.36.100.123 1 1 41734 20150522032417
+144.76.82.101 1 1 41734 20150513100702
+157.56.1.76 1 18 160880 20150512211843
+46.118.159.243 1 1 41734 20150529030033
+188.113.203.224 0 1 0 
+45.55.177.106 1 6 160880 20150530100456
+195.112.235.59 2 2 83468 20150505160509
+46.242.12.128 1 46 298380 20150517110421
+54.72.168.94 1 1 41734 20150523153532
+176.9.157.148 1 91 1676208 20150516024535
+54.72.158.255 1 1 41734 20150505123035
+198.199.75.123 1 16 160880 20150504074048
+176.14.220.82 1 91 1710438 20150521163317
+89.178.26.181 0 3 18391 
+176.193.93.240 2 34 121410 20150503000136
+46.118.158.185 1 1 41734 20150512122841
+128.72.180.100 1 87 1705803 20150531201450
+66.249.81.163 1 25 228208 20150502211105
+5.19.138.13 1 1 41734 20150517103031
+104.155.31.93 1 1 41734 20150501150223
+87.117.189.198 2 2 83468 20150529000253
+52.68.202.147 1 1 41734 20150509044728
+37.193.97.136 1 1 41734 20150517005344
+176.195.146.156 1 91 1710438 20150514052416
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20150501 13 116 3100103 6
+20150502 7 92 1854583 7
+20150503 3 36 163144 3
+20150504 7 43 516717 6
+20150505 6 82 1795327 5
+20150506 2 19 202614 2
+20150507 81 212 9217983 6
+20150508 36 173 4596320 6
+20150509 2 2 83468 2
+20150510 6 166 3541510 5
+20150511 539 626 69265082 4
+20150512 7 118 2617201 7
+20150513 5 5 208670 5
+20150514 11 289 4409960 5
+20150515 5 37 208670 4
+20150516 11 134 3067282 4
+20150517 8 137 2147349 7
+20150518 4 76 1574359 4
+20150521 4 147 1959421 4
+20150522 13 138 3188380 5
+20150523 6 32 493331 6
+20150524 5 5 166936 5
+20150525 36 127 4710778 4
+20150526 10 37 761734 4
+20150527 1 1 41734 1
+20150528 8 127 2489648 6
+20150529 21 147 3897741 6
+20150530 4 51 533644 4
+20150531 4 111 1954786 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+0s-30s 129
+2mn-5mn 2
+30s-2mn 3
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/server/show_photo.php 680 81887160 0 9
+/ 138 5717558 135 117
+/server/product.php 25 191810 0 0
+/fonts/MyriadPro.ttf 16 1269824 2 8
+/fonts/MyriadPro.eot 4 93544 0 2
+/index.php 1 41734 0 1
+/server/sendmail.php 1 15 0 0
+END_SIDER

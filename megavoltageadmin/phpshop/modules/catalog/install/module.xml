@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Catalog</name>
+    <description>Модуль каталога товаров из партнерской программы.</description>
+    <icon>icon.png</icon>
+    <adminmenu>
+        <title>Catalog</title>
+        <podmenu>
+            <podmenu_name>Настройка Catalog</podmenu_name>
+            <podmenu_icon>icon.png</podmenu_icon>
+            <podmenu_action>javascript:miniWin('../modules/catalog/admpanel/adm_module.php',550,550);</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

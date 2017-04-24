@@ -1,0 +1,95 @@
+body, td, th {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #999999;
+}
+
+body {
+	margin: 0px;
+	background-color: #ffffff;
+}
+
+a {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #2D7BDB;
+}
+
+a:link {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+form{ /*Убираем отступ*/
+    margin:0px;
+}
+
+h1{ /*Общий стиль для заголовков*/
+	font-size: 18px;
+	color: #000000;
+}
+
+h2{ /*Общий стиль для заголовков*/
+	font-size: 16px;
+	color: #000000;
+}
+
+div.opros{ /*Опрос*/
+	float: left;
+	background: #2088c7;
+	height: 10px;
+	margin-top: 2px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+div.leftMenu div select{ /*Стиль для ограничения ширины выпадающего списка смены дизайна*/
+	width: 184px;
+}
+
+div.gbook_otvet{ /*Ответ на отзыв*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px dashed #fd481d;
+	padding: 5px;
+}
+
+div.line{ /*Разделитель новостей*/
+	width: 100%;
+	height: 4px;
+	margin-top:5px;
+}
+
+div.news_date{ /*Новости*/
+	color: #000000;
+	font-weight: 600;
+	float: left;
+	padding-right: 10px;
+}
+
+div.news_tema,div.news_tema a{ /*Новости*/
+	color: #000000;
+	font-weight: 600;
+}
+
+div.page_nava{ /*Навигация*/
+	background-color: #fd481d;
+	padding: 5px;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+div.page_nava a{ /*Навигация*/
+	color: #000000;
+}

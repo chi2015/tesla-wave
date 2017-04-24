@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.0</version>
+    <name>SoftСatalog</name>
+    <description>Модуль каталога для размещения и загрузки программ.</description>
+    <icon>icon.gif</icon>
+    <base>2</base>
+    <adminmenu>
+        <title>SoftСatalog</title>
+        <podmenu>
+            <podmenu_name>Настройка SoftСatalog</podmenu_name>
+            <podmenu_icon>option.gif</podmenu_icon>
+            <podmenu_action>javascript:miniWin('../modules/soft/admpanel/adm_module.php',510,450);</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Обзор загрузок</podmenu_name>
+            <podmenu_icon>icon.gif</podmenu_icon>
+            <podmenu_action>javascript:window.location.replace('?plugin=soft')</podmenu_action>
+        </podmenu>
+        <menu>
+            <menu_name>Обзор загрузок SoftСatalog</menu_name>
+            <menu_icon>icon.gif</menu_icon>
+            <menu_action>window.location.replace('?plugin=soft')</menu_action>
+        </menu>
+    </adminmenu>
+</module>

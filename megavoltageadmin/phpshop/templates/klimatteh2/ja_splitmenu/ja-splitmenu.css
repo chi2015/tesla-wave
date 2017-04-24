@@ -1,0 +1,106 @@
+/* TOP NAVIGATION
+----------------------------------------------------------- */
+#ja-splitmenu {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-splitmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#ja-splitmenu li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#ja-splitmenu a {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 4px;
+	background: url(../images/tableft.gif) no-repeat top left;
+	text-decoration: none;
+	text-align: center;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+}
+
+#ja-splitmenu a span {
+	margin: 0 2px 0 0;
+	float: left;
+	padding: 7px 15px 6px 11px;
+	display: block;
+	background: url(../images/tabright.gif) no-repeat top right;
+	color: #DFE5EC;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#ja-splitmenu a span {
+	float: none;
+}
+
+/* End IE5-Mac hack */
+#ja-splitmenu a:hover span {
+	color: #FFFFFF;
+}
+
+#ja-splitmenu a:hover {
+	background-position: 0% -42px;
+}
+
+#ja-splitmenu a:hover span {
+	background-position: 100% -42px;
+}
+
+
+
+/* SUB NAVIGATION
+--------------------------------------------------------- */
+#ja-subnav {
+	font-size: 1em;
+}
+
+#ja-subnav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-subnav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	background: none;
+}
+
+#ja-subnav a {
+	padding: 1px 10px;
+	margin: 0 1px 0 0;
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#ja-subnav a:hover,
+#ja-subnav a:active,
+#ja-subnav a:focus {
+	color: #FFFFFF;
+	background: #4F89D2;
+	text-decoration: none;
+}
+
+#ja-subnav li.active_menu a,
+#ja-subnav li.active_menu a:hover,
+#ja-subnav li.active_menu a:active,
+#ja-subnav li.active_menu a:focus {
+	color: #FFFFFF;
+	background: #4F89D2;
+	text-decoration: none;
+}
+

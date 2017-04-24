@@ -1,0 +1,626 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201405 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.tesla-wave.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2664                
+POS_VISITOR 13739               
+POS_DAY 18056               
+POS_DOMAIN 3545                
+POS_LOGIN 3779                
+POS_ROBOT 3978                
+POS_WORMS 4597                
+POS_EMAILSENDER 4728                
+POS_EMAILRECEIVER 4871                
+POS_SESSION 18924               
+POS_SIDER 19120               
+POS_FILETYPES 5006                
+POS_DOWNLOADS 5262                
+POS_OS 5359                
+POS_BROWSER 5548                
+POS_SCREENSIZE 6406                
+POS_UNKNOWNREFERER 6480                
+POS_UNKNOWNREFERERBROWSER 6855                
+POS_ORIGIN 6985                
+POS_SEREFERRALS 7129                
+POS_PAGEREFS 7297                
+POS_SEARCHWORDS 7749                
+POS_KEYWORDS 9472                
+POS_MISC 2328                
+POS_ERRORS 10416               
+POS_CLUSTER 3635                
+POS_SIDER_404 10558               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140601043027 1 0 9397322359046
+FirstTime 20140501071736
+LastTime 20140531223647
+LastUpdate 20140601051311 1 0 0 0 0
+TotalVisits 170                 
+TotalUnique 102                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 105                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 187 2052001 11 55 180972
+1 45 243 4756525 19 80 172538
+2 53 246 6177151 11 99 3197534
+3 311 478 41046657 13 507 6824800
+4 11 349 4166995 8 24 169073
+5 11 140 2695644 3 21 348261
+6 29 267 3361227 15 128 2010605
+7 19 122 1265656 11 43 626099
+8 3 3 123783 6 22 45145
+9 21 233 4336559 6 22 581222
+10 347 474 42258819 13 454 3595818
+11 1 1 41405 10 29 263653
+12 11 112 904137 18 74 467668
+13 6 37 207025 20 65 712487
+14 793 957 96105040 31 936 5556713
+15 25 189 4195938 27 97 964608
+16 24 134 2791602 13 56 295634
+17 305 710 33388231 3 402 5920952
+18 248 933 43594982 32 436 8720462
+19 112 522 17448377 14 116 104114
+20 1112 1727 151761445 30 1280 9959264
+21 47 584 6927661 20 47 752613
+22 427 901 60857213 16 556 8711359
+23 79 227 10734400 8 141 3270843
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4045 9776 541198473
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+megavoltageadmin 30 56 52636 20140503225016
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+no_user_agent 4385 50642546 20140531223647 0
+bot[\s_+:,\.\;\/\\-] 157 3591521 20140530184016 0
+googlebot 109 1957121 20140531174858 0
+[\s_+:,\.\;\/\\-]bot 92 1717068 20140518062321 0
+yandex 88 5001986 20140531205043 0
+surveybot 3 124215 20140529150150 0
+favicon 2 41405 20140507061057 0
+domainchecker 1 41405 20140517112847 0
+mail\.ru 1 41405 20140514191801 0
+ng\/1\. 1 41405 20140509013812 0
+robot 1 41405 20140504034605 0
+nutch 1 41405 20140524230636 0
+crawl 1 41405 20140529094925 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 447 307475 0 0
+eot 26 514492 0 0
+png 1696 4798372 0 0
+ttf 44 3333288 0 0
+txt 1 826 0 0
+php 3708 442351101 0 0
+html 267 8933063 0 0
+js 1073 6868791 0 0
+jpg 2511 74090332 0 0
+gif 3 733 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/megavoltageadmin2/admin/hello/hello.txt 1 0 826
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 14
+linuxandroid 355
+winlong 231
+winxp 4185
+unix 1
+winnt 1
+linuxubuntu 29
+winvista 2633
+linux 9
+win7 1267
+macosx 1041
+winme 3
+win95 1
+wince 1
+Unknown 19
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 49
+safari7.0 32
+firefox28.0 1850
+msie6.0 234
+firefox3.6 33
+chrome34.0.1847.137 353
+android 33
+firefox2.0.0.1 1
+sonyericsson 94
+firefox18.0 6
+chrome12.0.742.112 1
+msie3.02 1
+opera9.80 515
+chrome24.0.1312.71 37
+msie8.0 646
+iphone 46
+chrome32.0.1700.102 1
+opera9.15 1
+chrome34.0.1847.132 480
+msie7.0 199
+firefox23.0 1
+chrome34.0.1847.116 57
+chrome33.0.1750.154 998
+msie9.0 76
+Unknown 2
+opera9.53 1
+safari7.0.2 285
+netscape 3
+netscape4.61 1
+chrome34.0.1847.131 1809
+firefox3.0 2
+chrome34.0.1847.114 40
+lg\- 188
+firefox29.0 95
+firefox3.5.15 32
+chrome28.0.1500.71 2
+firefox7.0.1 1
+chrome35.0.1916.114 673
+mozilla 15
+firefox25.0 51
+chrome30.0.1599.12785 1
+chrome33.0.1750.117 2
+chrome32.0.1700.76 1
+firefox22.0 1
+msie10.0 2
+chrome13.0.782.20 1
+firefox3.6.12 284
+chrome27.0.1453.116 1
+chrome23.0.1271.97 28
+safari 560
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla 20140529054317
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140529202411
+Opera/9.15 20140516040244
+IE/5.0 20140509073846
+MortScript 20140518062319
+Mozilla/5.0_(compatible;_U;_AnyEvent-HTTP/2.15;__http://software.schmorp.de/pkg/AnyEvent) 20140521071825
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+IE/5.0 20140509073846
+MortScript 20140518062319
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 169 242
+From1 0 0
+From2 62 63
+From3 29 29
+From4 3785 9442
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 3
+yandex 60 60
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://wmaid.com/explore/tesla-wave.ru 12 12
+http://x14files.in 5 5
+http://vk.com/club60241474 3 3
+http://yandex.ua/clck/jsredir 2 2
+http://vk.com/away.php 2 2
+http://go.mail.ru/search 2 2
+http://vk.com/club24408024 1 1
+http://zakonu.net.ru/usa-ar.html 1 1
+http://www.rlocman.ru/forum/showthread.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 19
+%ea%e0%f2%f3%f8%ea%e0+%f2%e5%f1%eb%e0 29
+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d1%83+%d1%82%d0%b5%d1%81%d0%bb%d0%b0+%d0%b4%d0%bb%d1%8f+%d1%88%d0%be%d1%83 6
+%ea%f3%ef%e8%f2%fc+%ea%e0%f2%f3%f8%ea%f3+%f2%e5%f1%eb%e0 6
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b8+%d1%82%d0%b5%d1%81%d0%bb%d0%b0+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c 3
+tesla-wave.ru 2
+%d0%b3%d0%b5%d0%bd%d0%b5%d1%80%d0%b0%d1%82%d0%be%d1%80+%d1%82%d0%b5%d1%81%d0%bb%d0%b0+%d1%81%d0%b2%d0%be%d0%b8%d0%bc%d0%b8+%d1%80%d1%83%d0%ba%d0%b0%d0%bc%d0%b8 1
+installerex+facebook 1
+%d1%82%d0%b5%d1%81%d0%bb%d0%b0+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b0+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c 1
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b8+tesla 1
+%d1%82%d0%b5%d1%81%d0%bb%d0%b0+%d1%81%d0%b0%d0%b9%d1%82+%d0%bf%d0%be%d1%81%d0%b2%d1%8f%d1%89%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9 1
+installerex+official+website 1
+%f8%ee%f3+%f1+%ea%e0%f2%f3%f8%ea%ee%e9+%f2%e5%f1%eb%fb 1
+%ea%e0%f2%f3%f8%ea%e8+%f2%e5%f1%eb%e0 1
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b0+%d1%82%d0%b5%d1%81%d0%bb%d0%b0 1
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b8+%d1%82%d0%b5%d1%81%d0%bb%d0%b0 1
+%f2%e5%f1%eb%e0+%ea%e0%f2%f3%f8%ea%e0+%ea%f3%ef%e8%f2%fc 1
+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d1%83+%d1%82%d0%b5%d1%81%d0%bb%d0%b0 1
+%f3%f1%f2%f0%ee%e9%f1%f2%e2%ee+%ea%e0%f2%f3%f8%ea%e8+%f2%e5%f1%eb%e0 1
+%d0%be%d0%bf%d0%b0%d1%81%d0%bd%d0%be%d1%81%d1%82%d1%8c+%d0%b8+%d0%b2%d1%80%d0%b5%d0%b4%d0%bd%d0%be%d1%81%d1%82%d1%8c+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b8+%d1%82%d0%b5%d1%81%d0%bb%d0%b0 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 31
+%f2%e5%f1%eb%e0 38
+%ea%e0%f2%f3%f8%ea%e0 30
+%d1%82%d0%b5%d1%81%d0%bb%d0%b0 16
+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c 11
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d1%83 7
+%ea%f3%ef%e8%f2%fc 7
+%d1%88%d0%be%d1%83 6
+%d0%b4%d0%bb%d1%8f 6
+%ea%e0%f2%f3%f8%ea%f3 6
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b8 6
+website 1
+%f2%e5%f1%eb%fb 1
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b0 2
+%d0%bf%d0%be%d1%81%d0%b2%d1%8f%d1%89%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9 1
+installerex 2
+%d0%b2%d1%80%d0%b5%d0%b4%d0%bd%d0%be%d1%81%d1%82%d1%8c 1
+facebook 1
+%d0%b8 1
+%f3%f1%f2%f0%ee%e9%f1%f2%e2%ee 1
+%ea%e0%f2%f3%f8%ea%e8 2
+%f1 1
+%ea%e0%f2%f3%f8%ea%ee%e9 1
+tesla-wave.ru 2
+%d0%b3%d0%b5%d0%bd%d0%b5%d1%80%d0%b0%d1%82%d0%be%d1%80 1
+%d0%be%d0%bf%d0%b0%d1%81%d0%bd%d0%be%d1%81%d1%82%d1%8c 1
+%d1%81%d0%b0%d0%b9%d1%82 1
+%d1%80%d1%83%d0%ba%d0%b0%d0%bc%d0%b8 1
+%f8%ee%f3 1
+official 1
+%d1%81%d0%b2%d0%be%d0%b8%d0%bc%d0%b8 1
+tesla 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 8 1499
+401 13 756
+302 9 4375
+500 7 0
+404 772 120498
+301 3 1017
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 91
+/add.php 1 -
+/modules/mod_system/mod_system.php 1 http://tesla-wave.ru/modules/mod_system/mod_system.php
+/sitemap.xml 4 -
+/robots.txt 500 -
+/admin/content/sitetree/ 1 -
+/user 1 -
+/manager/ 1 -
+/yandex/ 1 -
+/admin.php 11 -
+/contact 13 -
+/server/show_photo 2 http://tesla-wave.ru/
+/registration 1 -
+/tools.php 1 -
+/art 12 http://tesla-wave.ru/
+/manager/templates/default/css/login-min.css 1 -
+/board/add.php 1 -
+/wp-admin/ 1 -
+/netcat/admin/ 1 -
+/manager/media/script/mootools/mootools.js 1 -
+/components/com_ag_google_analytics2/index.php 1 http://tesla-wave.ru/components/com_ag_google_analytics2/index.php
+/wp-content/ 1 -
+/upload/market.php 1 -
+/node/ 1 -
+/engine/classes/min/index.php 3 -
+/yandex/ya.php 1 -
+/yandex-market.php 1 -
+/manager/templates/default/images/style/modx-logo-header.png 1 -
+/ya.php 1 -
+/export.xml 4 -
+/yandex_export.xml 4 -
+/netcat/admin/skins/default/css/style.css 1 -
+/bitrix/js/main/core/core.css 1 -
+/images/cms/admin/mac/common/butterfly.png 1 -
+/market.php 1 -
+/shop/market.php 1 -
+/journal-webfont.eot 1 http://www.tesla-wave.ru/style.css
+/xml/price.xml 4 -
+/yandex_market.php 1 -
+/images/mod_xsystem.php 1 http://tesla-wave.ru/images/mod_xsystem.php
+/manager/media/style/MODxCarbon/images/misc/logo.png 1 -
+/manager/media/style/MODxCarbon/images/misc/login-logo.png 1 -
+/netcat/admin/skins/default/css/login.css 1 -
+/yandex/yandex.php 1 -
+/manager/templates/default/images/restyle/headers.jpg 1 -
+/bitrix/themes/.default/images/auth_pict.gif 1 -
+/megavoltageadmin2/undefined 3 http://tesla-wave.ru/megavoltageadmin2/index.php
+/users/forget/ 1 -
+/templates/system/css/system.css 1 -
+/modules/system/system.base.css 1 -
+/user/password 1 -
+/shop/yandex.php 1 -
+/yandexmarket/yandexmarket.php 1 -
+/yandex-market.xml 4 -
+/netcat/admin/skins/default/img/logo.png 1 -
+/modules/system/system.css 1 -
+/yml.xml 4 -
+/market/ 1 -
+/gallery 14 -
+/w.php 1 http://tesla-wave.ru/w.php
+/user/login/ 1 -
+/yandex.xml 4 -
+/yandex_market.xml 4 -
+/xml/ 1 -
+/bitrix/themes/.default/adminstyles.css 1 -
+/yandex_xml.php 1 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php 1 -
+/yandex/yandex_export.php 1 -
+/link.jpg 84 http://tesla-wave.ru/
+/styles/skins/mac/design/css/style.css 1 -
+/users/registrate/ 1 -
+/installed 1 -
+/price.xml 4 -
+/wp-admin/images/wordpress-logo.png 1 -
+/yandex.market.xml 4 -
+/market_xml.php 1 -
+/market.xml 4 -
+/modules/wso.php 1 http://tesla-wave.ru/modules/wso.php
+/yandex-export.xml 4 -
+/manager/media/style/MODxCarbon/style.css 1 -
+/wp 1 http://tesla-wave.ru/wp
+/images/mod.php 1 http://tesla-wave.ru/images/mod.php
+/media/system/js/mootools.js 1 -
+/wp-admin/css/wp-admin.css 1 -
+/bitrix/admin/ 1 -
+/yandex_market/ 1 -
+/admin/users/tov.php 1 -
+/board/tools.php 1 -
+/yml/ 1 -
+/images/uphik.php 2 http://tesla-wave.ru/images/uphik.php
+/link-hover.jpg 12 http://tesla-wave.ru/style.css
+/user/password/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 105
+95.24.254.148 800 928 104816673 20140505202611
+94.31.147.118 740 782 91078857 20140517143203
+95.27.225.131 460 1805 72951101 20140503225021
+109.188.126.68 340 402 41623992 20140516104448
+178.137.126.234 331 437 44507356 20140506220843
+176.14.7.80 236 320 32312202 20140527034547
+84.242.206.57 208 240 21214280 20140508172214
+176.14.205.126 107 203 15071868 20140530200332
+212.119.233.97 86 285 9302249 20140525134132
+195.58.245.178 76 166 7217799 20140523022846
+81.218.93.253 1 1 41405 20140509073846
+89.208.17.22 1 1 41405 20140521071825
+94.29.125.38 7 39 686851 20140504165317
+213.79.99.127 42 86 4078339 20140506144558
+2.93.4.50 1 40 186500 20140526121420
+95.137.194.216 11 52 1804796 20140521222947
+176.100.43.192 11 40 1175595 20140518222951
+131.253.24.55 1 18 160551 20140504041041
+5.2.63.172 7 160 4081461 20140501210356
+213.136.64.63 1 1 41405 20140522021309
+193.169.52.155 1 1 41405 20140517044438
+31.181.164.1 71 116 5378984 20140518173622
+31.132.159.197 14 46 1856755 20140523162415
+95.24.137.236 1 73 2123326 20140503171343
+46.105.117.190 2 2 41405 20140515133643
+128.72.180.137 9 53 717637 20140517152301
+134.249.53.115 1 1 41405 20140510125736
+94.233.246.249 1 1 41405 20140513034449
+217.69.133.169 2 6 660455 20140523072339
+91.200.224.88 16 57 2600161 20140514170151
+176.14.167.24 6 6 593422 20140511124405
+131.253.24.97 1 18 160551 20140526172654
+128.73.93.128 2 33 82810 20140517212158
+176.109.195.139 1 1 41405 20140521191222
+2.94.151.203 1 8 41405 20140524074744
+46.161.41.123 2 2 82594 20140518040309
+83.149.9.125 56 161 8871228 20140528182711
+193.41.77.74 2 32 120769 20140528235518
+94.76.117.84 0 3 46338 
+2.93.193.100 3 158 1796631 20140521041105
+94.242.222.13 1 1 41405 20140508145538
+201.6.103.40 1 1 41405 20140530212834
+77.247.168.12 8 47 1287882 20140520020342
+94.244.143.49 1 1 41405 20140518192851
+46.188.17.72 20 992 9605667 20140520061801
+92.126.106.218 7 34 672786 20140510222716
+95.28.99.196 47 168 8024446 20140510185707
+93.174.118.252 6 46 440688 20140508143859
+2.93.4.211 3 124 1920196 20140504205438
+176.15.169.10 3 72 1666665 20140522184636
+213.87.138.245 1 94 2253524 20140507223005
+131.253.24.101 1 22 165186 20140515041513
+178.47.107.0 7 40 634827 20140507054519
+5.18.96.31 0 1 0 
+85.21.245.106 1 1 41405 20140521205532
+89.112.57.237 8 41 696172 20140506061140
+202.114.6.37 1 1 41405 20140508163553
+176.61.138.205 1 1 41189 20140503021955
+5.199.142.250 2 2 82810 20140517180050
+65.55.215.246 1 22 165186 20140507012009
+95.25.145.141 1 27 41405 20140529010012
+2.93.54.39 1 22 165186 20140523183853
+86.111.90.100 1 1 41405 20140526222800
+177.4.206.214 1 1 41405 20140529110823
+176.193.213.10 1 22 164971 20140501071736
+109.234.156.66 28 28 1158692 20140531062451
+89.112.74.243 1 1 41405 20140512011454
+37.146.82.27 2 37 120769 20140516145509
+5.248.10.116 3 97 2351639 20140509091651
+95.128.243.166 7 91 2753160 20140516152057
+130.0.238.5 1 1 41405 20140524051936
+37.115.184.37 1 1 41405 20140522215219
+217.118.78.36 11 45 924030 20140510233758
+37.113.194.156 7 43 686851 20140516074554
+66.249.92.106 0 3 222781 
+2.93.4.33 1 94 1713821 20140524224530
+128.68.248.9 58 143 8638417 20140531223647
+89.112.65.127 1 1 41405 20140504211357
+83.143.36.69 1 1 41405 20140506135124
+178.137.163.197 4 4 165620 20140518191347
+131.253.24.76 1 12 46040 20140510004133
+31.202.241.242 5 5 205945 20140502215146
+194.247.191.172 2 5 344982 20140508143858
+46.105.59.74 1 1 0 20140522191308
+2.93.193.171 2 31 217749 20140504024821
+188.92.76.167 14 14 0 20140529202411
+2.93.174.5 1 32 41405 20140521000957
+5.9.74.174 1 1 41405 20140514031053
+178.47.117.88 7 40 596209 20140508154309
+2.94.176.198 1 1 41405 20140521062251
+89.223.53.7 1 1 41405 20140528031759
+89.169.93.11 1 22 165186 20140515043825
+193.28.228.49 1 1 41405 20140516040244
+89.112.63.192 1 1 41189 20140501081315
+89.178.149.24 1 70 1545896 20140512172813
+91.230.62.57 1 1 41405 20140518062319
+65.55.215.254 1 22 165186 20140531010612
+94.50.99.255 12 46 1217000 20140505210235
+178.90.85.152 8 41 1267283 20140525091256
+128.68.209.224 66 150 9689601 20140525233915
+2.93.199.124 2 54 206591 20140507204816
+109.194.13.187 2 33 120769 20140514215418
+188.226.235.135 1 1 41405 20140515192418
+2.93.4.139 1 32 41405 20140523042743
+46.119.127.227 1 1 41405 20140509024923
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140501 11 185 4369999 5
+20140502 7 14 288323 3
+20140503 464 1902 75321776 6
+20140504 13 184 2861997 7
+20140505 813 975 106075078 3
+20140506 384 566 49364677 6
+20140507 13 213 3301533 7
+20140508 226 334 22720374 7
+20140509 6 100 2475854 4
+20140510 68 267 10374095 6
+20140511 47 129 3429535 4
+20140512 4 73 1628706 4
+20140513 3 50 292140 3
+20140514 23 219 4558966 7
+20140515 8 174 2209813 7
+20140516 359 608 45308987 7
+20140517 759 1029 93882960 11
+20140518 88 162 6803009 6
+20140519 7 269 2086032 7
+20140520 18 277 3719340 6
+20140521 20 247 3849857 9
+20140522 7 76 1790880 5
+20140523 134 437 15401855 8
+20140524 4 104 1838036 4
+20140525 76 193 11039694 4
+20140526 5 61 429861 5
+20140527 239 323 32353607 3
+20140528 60 195 9074807 4
+20140529 10 39 346996 6
+20140530 109 205 15154678 3
+20140531 60 166 8845008 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 6
+0s-30s 142
+2mn-5mn 7
+30s-2mn 12
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/server/show_photo.php 3546 440539232 1 25
+/ 230 8854931 167 129
+/server/product.php 141 1014439 0 8
+/fonts/MyriadPro.ttf 44 3333288 0 5
+/fonts/MyriadPro.eot 26 514492 0 0
+/megavoltageadmin2/admin/index.php 17 716349 0 0
+/megavoltageadmin2/admin/instantgallery/ 16 24859 0 0
+/megavoltageadmin2/admin/hello/ 14 20073 1 0
+/megavoltageadmin2/admin/ 6 24470 1 1
+/megavoltageadmin2/index.php 3 39676 0 1
+/megavoltageadmin2/ 1 8730 0 0
+/index.php 1 41405 0 1
+END_SIDER

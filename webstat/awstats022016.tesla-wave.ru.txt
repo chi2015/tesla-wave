@@ -1,0 +1,679 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201602 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.tesla-wave.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2652                
+POS_VISITOR 12560               
+POS_DAY 18414               
+POS_DOMAIN 3543                
+POS_LOGIN 3777                
+POS_ROBOT 3932                
+POS_WORMS 4561                
+POS_EMAILSENDER 4692                
+POS_EMAILRECEIVER 4835                
+POS_SESSION 19231               
+POS_SIDER 19438               
+POS_FILETYPES 4970                
+POS_DOWNLOADS 5272                
+POS_OS 5419                
+POS_BROWSER 5646                
+POS_SCREENSIZE 6862                
+POS_UNKNOWNREFERER 6936                
+POS_UNKNOWNREFERERBROWSER 7389                
+POS_ORIGIN 7555                
+POS_SEREFERRALS 7702                
+POS_PAGEREFS 7872                
+POS_SEARCHWORDS 9560                
+POS_KEYWORDS 9788                
+POS_MISC 2316                
+POS_ERRORS 9925                
+POS_CLUSTER 3633                
+POS_SIDER_404 10078               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160301011618 1 0 11062163216526
+FirstTime 0
+LastTime 20160229231559
+LastUpdate 20160301020335 1 0 0 0 0
+TotalVisits 239                 
+TotalUnique 123                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 156                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 38 186 5295666 8 91 2583112
+1 18 117 1654322 14 76 1709632
+2 29 129 3968898 10 80 1380097
+3 55 347 6392008 17 85 843126
+4 9 16 340942 25 75 987578
+5 26 151 3062310 12 64 777268
+6 27 109 3154541 19 35 593886
+7 9 38 422468 5 26 128665
+8 52 126 4175015 27 133 3087973
+9 17 48 1425978 57 127 2897568
+10 14 178 4239717 17 67 576176
+11 12 12 468232 12 24 739910
+12 25 119 3854479 11 63 958198
+13 118 637 20598202 14 155 4248528
+14 308 719 37293519 17 411 5956234
+15 99 501 12944178 21 133 969914
+16 92 446 11215076 6 93 771862
+17 365 818 40268143 54 536 11961511
+18 82 303 10001248 22 230 5369925
+19 171 647 22285107 10 184 1335062
+20 29 91 2444860 5 44 167164
+21 152 617 17398868 14 127 2107531
+22 455 2426 80661603 20 302 2061601
+23 185 930 25474625 267 540 7869628
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2387 9711 319040005
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+no_user_agent 2039 46955775 20160229231559 0
+googlebot 184 2526083 20160229205838 0
+baiduspider 107 3334895 20160229183328 0
+yandex 87 4076442 20160229200112 0
+archive\.org_bot 30 635917 20160223010448 0
+bot[\s_+:,\.\;\/\\-] 9 374173 20160223220218 0
+msiecrawler 9 375606 20160216062540 0
+crawl 9 0 20160223180346 0
+favicon 8 1229167 20160228165954 0
+mj12bot 4 166936 20160213165204 0
+core 1 41734 20160218013657 0
+surveybot 2 82035 20160224045843 0
+[\s_+:,\.\;\/\\-]bot 2 83468 20160202191537 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 551 1298186 0 0
+eot 43 935440 0 0
+png 2242 9372838 0 0
+ttf 89 6666576 0 0
+txt 6 1652 0 0
+swf 3 38680 0 0
+php 1688 150885311 0 0
+html 499 17814671 0 0
+jpg 2946 115834083 0 0
+js 1561 13976153 0 0
+Unknown 65 2212763 0 0
+gif 18 3652 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/megavoltageadmin2/admin/hello/hello2.txt 3 0 826
+/megavoltageadmin2/admin/hello/hello.txt 3 0 826
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 17
+linuxandroid 909
+winlong 43
+winxp 402
+win2000 19
+winvista 439
+winunknown 84
+win95 2
+win2003 10
+winnt 259
+java 2
+linuxubuntu 14
+win98 6
+linux 4806
+win7 1144
+macosx 1508
+win16 2
+Unknown 62
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 70
+msie6.0 114
+chrome44.0.2403.125 1
+firefox28.0 16
+webcapture 4
+chrome45.0.2454.85 1
+firefox3.6 8
+firefox44.0 2394
+firefox2.0.0.1 1
+chrome28.0.1500.94 722
+chrome40.0.2214.111 2
+msie4.01 3
+chrome31.0.1650.57 66
+curl 29
+chrome31.0.1650.63 225
+msie8.0 55
+opera7.60 3
+firefox43.0 63
+msie7.0 6
+chrome37.0.2062.120 2
+firefox23.0 1
+chrome27.0.1453 34
+firefox41.0 2
+opera9.0 2
+opera7.11 6
+chrome45.0.2454.99 2
+firefox40.0 3
+chrome34.0.1847.131 7
+chrome47.6.2526.80 1
+chrome48.0.2564.82 219
+firefox21.0 4
+opera9.01 3
+firefox29.0 9
+chrome12.0.704.0 1
+firefox38.0 33
+chrome47.0.2526.73 95
+firefox33.0 1
+mozilla 97
+chrome48.0.2564.103 3
+firefox3.6.3 1
+chrome41.0.2228.0 7
+safari5.1.9 44
+safari9.0.2 67
+chrome34.0.1847.76 48
+chrome23.0.1271.64 1
+android 42
+chrome48.0.2564.116 3192
+chrome28.0.1500.95 31
+epiphany 1
+opera9.00 15
+opera9.80 360
+chrome43.0.2357.81 14
+netscape0.91 2
+chrome47.0.2526.111 90
+chrome34.0.1847.116 1
+safari7.1.3 2
+msie5.0 2
+msie9.0 68
+chrome30.0.1599.101 2
+Unknown 3
+chrome47.0.2526.83 96
+safari9.0.3 38
+opera8.01 2
+msie5.5 9
+safari9.0 43
+chrome18.0.1025.133 1
+chrome45.0.2454.101 4
+firefox1.0 5
+chrome48.0.2564.109 770
+msie10.0 122
+chrome48.0.2564.97 390
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+GuzzleHttp/6.1.0_curl/7.29.0_PHP/5.6.14 20160222225025
+Opera/9.80_(Android;_Opera_Mini/12.0.1987/37.7832;_U;_ru)_Presto/2.12.423_Version/12.16 20160218231808
+Go-http-client/1.1 20160204053620
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20160228224120
+GuzzleHttp/6.1.0_curl/7.35.0_PHP/5.5.9-1ubuntu4.14 20160221182743
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Apache-HttpClient/4.2.5_(java_1.5) 20160202154118
+Go-http-client/1.1 20160204053620
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 555 624
+From1 1 1
+From2 35 121
+From3 179 179
+From4 1617 8786
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 13 99
+yandex 22 22
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 52
+http://www.auto-zapchasti.org 9 9
+http://groupmoney.ru 9 9
+http://chi2013.h19.ru 9 9
+http://autotop.com.ua 8 8
+http://www.4istoshop.com 6 6
+http://sky-mine.ru 6 6
+http://www.rospromtest.ru 6 6
+http://sdi-pme.com 6 6
+http://www.visa-china.ru 6 6
+http://ekaterinburg.xrus.org 6 6
+http://1kinobig.ru 3 3
+http://phobia.us 2 2
+http://www.cy-pr.com/ip/83.69.230.118 1 1
+http://hostx.ru 4 4
+http://perm.xrus.org 3 3
+http://www.growshop.es 3 3
+http://hoporno.com 3 3
+http://yourdesires.ru 3 3
+http://www.auto-moto-elektronika.cz 2 2
+http://samara.xrus.org 2 2
+http://www.rvtv.ru 3 3
+http://krasnoyarsk.xrus.org 3 3
+http://novosibirsk.xrus.org 1 1
+http://hyipmanager.in 2 2
+http://mototsikl.org 3 3
+http://hyipmanager.in/karta-sajta/ 1 1
+http://burger-imperia.com 2 2
+http://sachaan.com 1 1
+http://www.diy-handmade-ideas.com 2 2
+http://go.mail.ru/search 2 2
+http://piter.xrus.org 3 3
+http://brendbutik.ru 1 1
+http://ufa.xrus.org 2 2
+http://tytoona.com 3 3
+http://vk.com/away.php 1 1
+http://m.vk.com/away.php 3 3
+http://voronezh.xrus.org 6 6
+http://pornoforadult.com 2 2
+http://sivs.ru 2 2
+http://memovn.com 2 2
+http://sale-japan.com 3 3
+http://healmytrauma.info 2 2
+http://elvel.com.ua 3 3
+http://el-nation.com 2 2
+http://www.beauty-clinic.ru/epil/laser-epilation 3 3
+http://jm-aj.com 2 2
+http://xsion.net 3 3
+http://novgorod.xrus.org 3 3
+http://hspline.com 6 6
+http://carfax.com.ua 3 3
+http://architecturebest.com 4 4
+http://likesdesign.com/top-30-girls-shoot-fails-you-will-never-guess-what-a-beautiful-girl-is-ready-to-do-to-get-this-photo/ 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b0+%d0%a2%d0%95%d0%a1%d0%9b%d0%95 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+%d0%ba%d0%b0%d1%82%d1%83%d1%88%d0%ba%d0%b0 1
+%d0%a2%d0%95%d0%a1%d0%9b%d0%95 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+401 1 23
+403 4 1070
+302 3 0
+503 13 5226
+500 1 617
+404 1013 185716
+301 20 6180
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 54
+/highslide/highslide-p.js 8 http://tesla-wave.ru/megavoltageadmin/
+/sitemap.xml 2 -
+/megavoltageadmin2/undefined 260 http://tesla-wave.ru/megavoltageadmin2/
+/robots.txt 485 -
+/manager/ 1 -
+/apple-touch-icon.png 4 -
+/admin.php 14 -
+/UserFiles/Image/demo/img6_17345s.jpg 8 http://tesla-wave.ru/megavoltageadmin/
+/contact 24 -
+/components/com_weblinks/controllers/abookiI6.php 1 -
+/buy 14 http://yandex.ru/clck/jsredir
+/UserFiles/Image/demo/boxnew3.gif 4 http://tesla-wave.ru/megavoltageadmin/
+/language/en-GB/en-GB.xml 8 -
+/products 6 -
+/gallery/favicon.jpg 4 http://www.tesla-wave.ru/gallery/photos
+/UserFiles/Image/demo/modules.png 8 http://tesla-wave.ru/megavoltageadmin/
+/art 23 -
+/editor_old/plugins/div/dialogs/test.php 1 -
+/megavoltageadmin2/admin/hello.txt 4 -
+/wp-admin/ 6 http://tesla-wave.ru/wp-login.php
+/photos 1 -
+/file:///C:/Data/Projects/Web/coil/index.html/buy 3 -
+/gallery 25 -
+/chiadmin/info.php 1 -
+/license.php 1 -
+/wp-includes/js/tinymce/plugins/compat3x/xml.php 1 -
+/www.zip 1 -
+/ppp 1 -
+/apple-touch-icon-precomposed.png 4 -
+/server.hello.php 1 -
+/highslide/highslide.css 8 http://tesla-wave.ru/megavoltageadmin/
+/UserFiles/Image/demo/installer.png 8 http://tesla-wave.ru/megavoltageadmin/
+/plugins/editors/jce/tiny_mce/plugins/format/proxy.php 1 -
+/favicon.JPG 2 -
+/megavoltageadmin/phpshop/templates/pure/images/rssicon.png 4 http://tesla-wave.ru/megavoltageadmin/phpshop/templates/pure/style.css
+/efff 2 -
+/modules/mod_jshopping_search/element/search.php 1 -
+/scripts/history.min.js 2 -
+/admin 6 -
+/wp-includes/js/tinymce/plugins/textcolor/config.php 1 -
+/UserFiles/Image/demo/phpshopide.png 8 http://tesla-wave.ru/megavoltageadmin/
+/plugins/editors/codemirror/ini.php 1 -
+/UserFiles/Image/demo/img6_20086s.jpg 8 http://tesla-wave.ru/megavoltageadmin/
+/demo 1 -
+/administrator/ 9 -
+/UserFiles/Image/demo/img6_15292s.jpg 8 http://tesla-wave.ru/megavoltageadmin/
+/server/products.php 1 -
+/bitrix/admin/ 2 http://tesla-wave.ru/bitrix/admin/
+/UserFiles/Media/shopbuilder.swf 4 http://tesla-wave.ru/megavoltageadmin/
+/a 1 -
+/UserFiles/Image/demo/img6_15923s.jpg 8 http://tesla-wave.ru/megavoltageadmin/
+/server/product.ph 1 -
+/site.zip 1 -
+/admin/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 156
+195.95.215.35 982 4588 154109133 20160229231206
+46.188.124.103 709 1778 82001287 20160228162432
+2.60.129.199 42 84 3719733 20160216084855
+176.193.169.42 37 79 3772795 20160223135403
+46.118.114.111 30 30 1252020 20160217124951
+109.188.125.34 29 64 3447294 20160219141226
+134.249.54.139 29 29 1149105 20160227061316
+194.44.30.202 28 66 2719007 20160225215346
+91.224.140.223 28 28 1168552 20160222225025
+109.252.161.213 27 65 2526360 20160222001115
+66.102.9.43 2 37 298917 20160223192317
+178.140.85.82 1 31 41734 20160223154419
+31.177.83.242 1 1 41734 20160221005830
+204.79.180.107 0 3 15648 
+128.74.246.153 2 9 65120 20160207061927
+95.220.212.111 2 13 69755 20160213232033
+120.197.234.164 1 1 41734 20160208081241
+52.0.89.236 1 1 33632 20160225120451
+81.137.116.209 2 32 88103 20160215181639
+204.79.180.109 0 3 80706 
+204.79.180.228 1 1 41734 20160213073000
+104.236.111.203 1 1 41734 20160208144632
+46.73.137.56 2 93 1697374 20160226055627
+77.232.10.215 21 114 4417636 20160202132758
+104.236.9.61 1 16 160880 20160215161248
+204.79.180.38 0 3 1972 
+204.79.180.73 0 3 15117 
+204.79.180.164 0 3 2663 
+5.101.66.180 3 3 100728 20160227235540
+204.79.180.14 0 3 2663 
+83.69.230.84 7 7 558361 20160202170429
+176.77.14.117 1 8 41734 20160223032829
+95.56.218.244 0 6 33667 
+85.234.120.184 1 44 131232 20160221134230
+88.135.63.44 1 78 1445028 20160209151218
+204.79.180.210 0 3 1972 
+213.87.122.90 0 1 0 
+46.164.204.152 1 1 41734 20160218222736
+95.215.45.142 1 1 41734 20160201211203
+95.221.205.206 1 18 160880 20160207014517
+5.44.103.103 1 1 41734 20160205150449
+52.68.127.60 1 1 41734 20160207054956
+204.79.180.217 0 3 80706 
+95.25.237.111 1 33 79676 20160218194306
+46.242.52.122 3 27 213779 20160227155044
+46.119.117.85 4 4 166936 20160218051801
+52.62.51.10 1 1 41734 20160207033807
+77.122.123.180 1 1 41734 20160213205726
+158.69.225.34 3 3 100728 20160228224122
+204.79.180.59 0 1 0 
+141.0.13.85 7 30 635135 20160218231806
+82.117.234.105 2 2 83468 20160210180628
+204.79.180.255 0 3 4414 
+45.55.229.210 1 1 41734 20160201092403
+217.118.81.238 1 1 79364 20160207190312
+176.59.49.121 0 1 0 
+204.79.180.184 0 3 3261 
+178.123.246.245 1 1 41734 20160221065135
+204.79.180.177 0 3 15648 
+46.48.13.161 1 1 41734 20160207200040
+94.73.231.105 10 39 862993 20160219134654
+45.55.229.151 5 5 168160 20160224225619
+178.45.53.11 8 107 2940683 20160217232100
+204.79.180.238 0 1 0 
+204.79.180.63 0 3 80706 
+82.145.222.69 2 33 121098 20160221161332
+85.115.224.193 2 34 121098 20160203013854
+204.79.180.4 0 3 15117 
+85.25.185.47 4 4 41734 20160218185224
+148.251.48.178 1 1 41734 20160221182743
+134.249.65.86 27 27 1053267 20160228203313
+5.57.13.236 0 3 15276 
+204.79.180.165 2 2 75310 20160228002555
+195.191.59.208 1 1 33632 20160225112711
+178.137.161.64 1 1 40301 20160223220938
+204.79.180.146 0 1 0 
+176.77.72.254 2 36 53054 20160223213221
+66.102.9.54 2 52 1918605 20160223192317
+213.136.64.63 1 1 41734 20160203140254
+204.79.180.133 0 1 0 
+95.84.151.237 1 31 41734 20160206150208
+188.165.79.113 1 1 41734 20160214161327
+5.105.94.179 2 33 121098 20160221230016
+109.63.199.41 2 11 43889 20160225233410
+204.79.180.92 0 1 0 
+91.230.25.106 1 1 41734 20160203092114
+52.69.2.241 1 1 41734 20160207054306
+81.211.127.194 1 1 41734 20160202015316
+178.137.17.196 15 15 626010 20160217023245
+31.132.179.129 0 3 15276 
+92.243.117.198 1 1 41734 20160218092100
+62.212.73.49 1 1 41734 20160205081048
+87.228.66.245 1 31 41734 20160219030427
+46.188.82.228 11 61 1205408 20160213015329
+5.79.193.209 2 95 2333217 20160221133006
+183.69.220.197 2 2 83468 20160202154118
+128.69.130.71 1 45 298380 20160214035408
+31.207.129.230 1 1 41734 20160217142055
+83.69.240.241 18 261 6158805 20160229231559
+92.243.167.145 12 67 1319357 20160225184518
+188.232.132.28 0 3 18391 
+5.62.153.182 1 1 41734 20160216110940
+89.109.12.239 8 91 2717344 20160215150543
+46.118.114.75 8 8 268608 20160229151226
+46.73.246.39 1 33 79676 20160207191614
+128.68.51.76 1 87 1705803 20160206102814
+45.55.133.230 2 7 167046 20160224141149
+104.236.114.5 1 1 41734 20160216174430
+89.178.171.216 1 8 41734 20160218133137
+46.201.144.37 1 1 41734 20160213015259
+95.25.112.145 3 11 64543 20160225072347
+204.79.180.215 0 4 3261 
+46.118.159.38 1 1 41734 20160211023945
+178.45.125.25 3 78 2228155 20160225064126
+86.62.117.180 1 1 41734 20160220112911
+178.123.199.159 3 3 114178 20160227075450
+62.210.217.112 2 9 83468 20160220154505
+204.79.180.185 0 1 0 
+109.110.43.39 11 45 822394 20160214052049
+109.234.156.66 13 13 524849 20160226212424
+204.79.180.235 0 6 19531 
+66.102.9.32 1 41 551874 20160223192316
+46.133.213.158 17 48 1938998 20160202201014
+37.146.111.38 2 9 65120 20160223044513
+52.193.51.221 1 1 41734 20160207053613
+46.243.254.175 1 79 2057580 20160212102410
+204.79.180.160 0 1 0 
+79.140.23.35 1 1 33576 20160227043432
+204.79.180.108 0 1 0 
+37.204.156.45 1 33 79676 20160223084413
+204.79.180.86 0 3 2788 
+195.91.212.123 1 1 33632 20160225200248
+188.163.96.254 1 97 2261513 20160203002252
+146.148.30.93 1 1 33632 20160224221724
+204.79.180.104 0 1 0 
+79.104.4.50 17 111 3578601 20160224124536
+178.137.162.20 2 2 83468 20160216184553
+188.138.33.226 2 2 82035 20160223191553
+92.222.6.12 1 1 41734 20160210140928
+82.117.232.152 1 1 0 20160213120048
+204.79.180.224 1 1 41734 20160204032957
+178.137.81.41 9 9 302184 20160229115311
+95.25.201.222 15 115 3409096 20160219020218
+5.228.162.21 12 43 1217308 20160223095335
+79.137.223.57 4 4 158778 20160226042956
+89.163.220.57 1 1 41734 20160211131235
+217.118.93.141 11 89 2684420 20160202192438
+91.207.106.254 18 61 1982732 20160202144605
+204.79.180.103 0 1 0 
+109.120.185.86 1 1 41734 20160204053620
+46.119.127.64 10 10 335760 20160229102121
+178.137.93.235 25 25 1043350 20160217110753
+37.0.66.126 2 2 83468 20160218031400
+204.79.180.62 0 1 0 
+94.253.90.243 1 8 41734 20160207215150
+45.55.133.251 1 6 160880 20160206212659
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20160201 5 6 208670 5
+20160202 223 635 27746302 9
+20160203 6 141 2507813 5
+20160204 6 27 374185 6
+20160205 15 129 2214355 9
+20160206 5 126 1991885 5
+20160207 16 172 3399517 15
+20160208 3 33 389998 3
+20160209 4 84 1588621 4
+20160210 24 129 3817280 7
+20160211 6 6 250404 6
+20160212 11 89 2474920 6
+20160213 48 212 4851970 15
+20160214 24 120 1840286 7
+20160215 28 192 3932139 11
+20160216 57 102 4361019 8
+20160217 23 122 3566693 9
+20160218 20 106 1128047 9
+20160219 59 254 7928053 6
+20160220 18 118 2430976 6
+20160221 17 279 3180897 11
+20160222 143 502 16205512 10
+20160223 385 873 35695242 15
+20160224 334 831 43833444 11
+20160225 184 857 29047903 11
+20160226 71 543 17340697 6
+20160227 295 564 35446198 10
+20160228 15 101 2040766 6
+20160229 342 2358 59246213 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 7
+0s-30s 208
+15mn-30mn 4
+2mn-5mn 8
+30s-2mn 7
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 30
+/server/show_photo.php 1250 147058961 1 26
+/ 446 17451500 227 174
+/server/product.php 248 2218460 2 4
+/server/hello.php 178 1310836 4 10
+/fonts/MyriadPro.ttf 89 6666576 3 15
+/fonts/MyriadPro.eot 43 935440 0 3
+/megavoltageadmin2/ 37 113490 2 0
+/buy 23 772611 0 0
+/gallery 13 436600 0 0
+/megavoltageadmin2/admin/ 9 31944 0 1
+/megavoltageadmin2/index.php 2 11161 0 0
+/gallery/ 3 100728 0 0
+/contact 2 67264 0 1
+/chiadmin/test.php 2 1716 0 1
+/megavoltageadmin2/admin/instantgallery/ 2 67152 0 0
+/products 4 164070 0 0
+/art 4 134317 0 0
+/buy/t 1 33576 0 0
+/art2 1 33533 0 0
+/egallery 1 33576 0 0
+/buy/5 1 33576 0 1
+/gallery/videos 9 302184 0 0
+/chiadmin2/test.php 4 182630 0 1
+/index.php/admin/ 1 41734 0 1
+/gallery/photos 4 134304 0 0
+/megavoltageadmin/tagcloud/tagcloud.swf 3 38680 0 0
+/megavoltageadmin2/admin/index.php 4 101547 0 0
+/gallery/u 1 33576 0 0
+/megavoltageadmin/ 1 8123 0 0
+/buy/1 1 33576 0 1
+END_SIDER

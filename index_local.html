@@ -1,0 +1,235 @@
+<html>
+	<head>
+		<title>Tesla Wave</title>
+		<meta charset="windows-1251"/>
+		<!--<meta name="robots" content="noindex, nofollow"/>-->
+		<meta name="keywords" content="купить катушку тесла,москва, купить катушку тесла в москве, купить трансформатор тесла в москве, купить тесла, купить тесла в москве, катушка, тесла, катушка тесла, трансформатор тесла, купить,купить трансформатор тесла, купить генератор молний, tesla, tesla coil, tesla transformer, lighting generator, high voltage, высокое напряжение, электричество,никола, никола тесла, переменный ток, ток высокой частоты, nikola tesla, ворденклиф, колорадо спрингс, wardenclyffe, colorado springs">
+		<meta name="description" content="Катушка Тесла. Генератор молний. Купить катушку или заказать изготовление устройства любого размера. Видео, показывающее работу Большой Катушки Тесла. Генератор молний длиной до 2 метров!">
+		<meta name='yandex-verification' content='70eab72df38a8eb7' />
+
+		<link rel="icon" href="favicon.jpg" type="image/jpeg"/>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" language="JavaScript" src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/magnific-popup.js"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/knockout-2.2.1.js"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/underscore-1.6.0.js"></script>
+		<script type="text/javascript" language="JavaScript" src="scripts/backbone-1.0.0.js"></script>
+	</head>
+	<body>
+		<div class="main-block" data-bind="css: { 'middle-bottom' : currentPage() == 'Main' ||  currentPage() == ''}">
+			<div class="logo-top"></div>
+				<ul class="upper-menu" id="rm">
+					<li><a href="/" class="main-menu-link" data-bind="click: goToMain, css: { selected: currentPage() == 'Main'}">ГЛАВНАЯ</a></li>
+					<li><a href="/art" class="main-menu-link" data-bind="click: navigateToArt, css: { selected: currentPage() == 'Art'}">СТАТЬИ</a></li>
+					<li><a href="/buy" class="main-menu-link" data-bind="click: navigateToBuy, css: { selected: currentPage() == 'Buy'}">КУПИТЬ</a></li>
+					<li><a href="/gallery" class="main-menu-link" data-bind="click: navigateToGallery, css: { selected: currentPage() == 'Gallery'}">ГАЛЕРЕЯ</a></li>
+					<li><a href="/contact" class="main-menu-link" data-bind="click: navigateToContact, css: { selected: currentPage() == 'Contact'}">КОНТАКТЫ</a></li>
+				</ul>
+				<div class="middle-block">
+					<div class="main-left-block" data-bind="visible: currentPage() == 'Main' ||  currentPage() == ''">
+						<p data-bind="text: mainText"></p>
+					</div>
+					<ul class="left-menu" id="lm" data-bind="visible: currentPage() == 'Art'">
+						<li><a href="#" data-bind="click: goToTeslaArticle, css: { selected: currentArticle() == 'Tesla'}">О НИКОЛЕ ТЕСЛА</a></li>
+						<li><a href="#" data-bind="click: goToAmperArticle, css: { selected: currentArticle() == 'Amper'}">О ПЕРЕМЕННОМ ТОКЕ</a></li>
+						<li><a href="#" data-bind="click: goToCoilArticle, css: { selected: currentArticle() == 'Coil'}">О КАТУШКЕ ТЕСЛА И ТОКАХ ВЫСОКОЙ ЧАСТОТЫ</a></li>
+					</ul>
+					<div class="article-block" data-bind="visible: currentPage() == 'Art'">
+						<div class="text_and_img">
+							<img class="article-img" src="teslafoto.jpg" data-bind="visible: currentArticle() == 'Tesla' && currentArticlePage() == 1"/>
+							<p class="first" data-bind="visible: currentArticle() == 'Tesla' && currentArticlePage() == 1">Никола Тесла родился 10 июля 1856 года в сербской деревушке под названием Смилян. Мальчик рос в семье отца-священника, Милутина Тесла и матери-ремесленницы, Георгины Тесла. Отец привил сыну любовь к книгам и математике, а от матери он унаследовал любопытство к технике и конструированию. Кстати, фамилия Тесла произошла от сербского слова „тесло”, обозначающего инструмент для обработки дерева. Всего в семье росло пять детей, три девочки и два мальчика. Тесла ходил в сельскую школу и на эти годы пришлась смерть его любимого старшего брата (брат погиб, катаясь верхом на лошади). Для него это был весьма сильный удар и потеря, которая наложила отпечаток на всю его жизнь. Вскоре после этого семья поправляет свое материальное положение- отец получает повышение сана и семья Тесла переезжает в Госпич, где Никола заканчивает начальную школу и трехлетнюю нижнюю гимназию. Осенью в этом-же году Тесла поступил в высшее реальное училище в городе Карловац, где жил в доме у своей тети. Через три года он получил аттестат зрелости и вернулся в родную деревню, где в это время была эпидемия холеры. Тесла заразился этой болезнью и провел в постели в тяжелом состоянии девять месяцев. Оправившись от тяжелейшей болезни у него появилась фобия к микробам. На протяжении всей жизни из-за этого на Теслу люди смотрели искоса, когда, к примеру, он просил в номер в отеле большую стопку чистых полотенец и мыл руки по тридцать раз на дню. Также у него было отвращение к некоторым продуктам, например к персикам. В 1874 году ему пришла повестка в армию. Родители сочли службу в армии пустым занятием и спрятали Теслу.</p>
+							<p data-bind="visible: currentArticle() == 'Tesla' && currentArticlePage() == 2"> В 1895 году, Тесла поступил в высшую школу в Гратце, на факультет электротехники. Изучая там машины постоянного тока, он понял их несовершенство, как ненадежны и маломощны они были, его раздражал вид коллекторного мотора с искрящимися щетками. Там-же его посетила идея построить мотор без коллектора, но преподаватели и сверстники лишь посмеялись над этой затеей. Это была идея создать двигатель принципиально новый - двигатель переменного тока. Лелея эту мечту, Тесла переезжает в Америку в надежде заработать средств для постройки генератора и мотора переменного тока. Переехав, он устраивается на предприятие электрических машин постоянного тока к Томасу Эдисону. Этот прагматичный и богатый человек имел весьма гадкое чувство юмора. В ранние годы Тесла выглядел весьма внушительно, был худощавый и высокий. А впалые щеки и пронзительный взгляд делали его похожим на одержимого демоном человека, и Эдисон позволил весьма нелестное высказывание в адрес Тесла: „Молодой человек, вы никогда не питались человеческим мясом?” . Этот вопрос обескуражил его: Тесла не знал, как реагировать на такую грубость... Потому как Тесле нужны были деньги, он был вынужден устроится на работу в эту компанию и проработав там непродолжительное время, уволился. Поводом для ухода с работы был отказ Эдисона в выплате 50 000 долларов обещанной премии. Уволившись, Тесла был вынужден перебиваться без работы, в буквальном смысле, копать канавы за гроши. Затем, группа предпринимателей, наслышанных о молодом талантливом человеке, предложили Николе разработать серию дуговых ламп для уличного освещения. Но эти люди хотели лишь заработать на нем и вскоре ,оклеветав его, забрали его изобретения себе. Нашлись и хорошие люди, оказавшие материальную поддержку Тесле. Это был его приятель, уговоривший своих знакомых оказать финансовую поддержку талантливому изобретателю. На эти средства, Тесла открывает свою компанию по производству дуговых ламп „Tesla Electric Light Company”. Работая в Нью-Йорке, он строит свою лабораторию и вскоре знакомится с известным предпринимателем Джорджем Вестингаузом. Подружившись с Теслой ,Вестингауз предлагает ему скупить все его патенты на переменный ток и выплачивать ему по доллару за каждую лошадиную силу, выработанную его машинами. Вскоре, предприниматель оказывается на грани банкротства и Тесла прощает ему огромный долг. Из-за успешной деятельности талантливого ученого, кто-то поджигает его лабораторию, и она сгорает дотла. Несмотря на это, Тесла за короткие сроки восстановил все свои записи и чертежи по памяти. Новость быстро разнесли газеты и Тесла вновь получает финансовую</p>
+							<p data-bind="visible: currentArticle() == 'Tesla' && currentArticlePage() == 3">поддержку от „Компании Ниагарских Водопадов” Вскоре, Тесла получает приглашение от местной компании в курортном городке Колорадо Спрингс и принимает решение переехать туда , чтобы начать новые масштабные эксперименты с высокочастотными высоковольтными установками. На высокогорном плато он строит большую лабораторию и устанавливает там огромный осциллятор-катушку. Там он впервые получает напряжение в 12 миллионов вольт. Установив над зданием лаборатории мачту высотой 60 метров с металлическим шаром, диаметром 1 метр, Тесла включает большую катушку в работу. Из шара во все стороны с оглушительным треском разлетаются сорокаметровые молнии. Маленький городок Колорадо Спрингс в ужасе... В этой-же лаборатории ученый проводит ряд практических опытов. Там он впервые испытывает свои радиоприемники, питающиеся от батарей, конструирует приемник на регенеративном принципе, имеющий чувствительность под стать современным. Наблюдая за движением грозы при помощи этих приемников, Тесла устанавливает наличие стоячих волн в земной атмосфере (задолго до Шумана). Здесь Тесла осмысливает одно из самых главных его открытий- возможность передачи электроэнергии без проводов по земной поверхности. По окончании своих экспериментов в Колорадо Спрингс, Тесла делает записи, где также описывает красоту местной природы. В 1899 году осенью Тесла возвращается в Нью-Йорк. Там с ним предпочитает познакомиться самый крупный предприниматель, Джон Пирпонт Морган и финансирует проект, за который взялся Тесла. Однако, вместо выполнения задания. данного ему миллиардером, Тесла приобретает земельный участок на острове Лонг-Айленд на окраине Нью-Йорка и строит там лабораторию и большую мачту со сферическим конденсатором наверху. Конструкция должна была быть надежной и Тесла нанимает для проектирования каркаса Стэнфорда Уайта, знаменитого американского архитектора. Там Тесла удачно передает энергию на расстояние без проводов по земной поверхности. С большой сферы на деревянном каркасе на сотни метров удлиняются огромные молнии, небесное пространство наполняется свечением на многие мили вокруг. Тесла получает напряжение в 100 миллионов вольт и заявляет прессе, что с легкостью может превысить этот порог. Тогда-же Тесла изучает карты центральной Сибири в библиотеке конгресса США. Он решает провести эксперимент по передачи энергии в район реки Подкаменной Тунгуски, так-как этот регион был мало заселен. Какой будет эффект, ученый не знал. Позже в газетах он заявляет: ”Я ,конечно, ожидал, что будет большой взрыв... Но это настоящая катастрофа.”</p>
+							<p data-bind="visible: currentArticle() == 'Tesla' && currentArticlePage() == 4">Предприниматель Морган узнает о том, что его финансирование дало мало результатов и Тесла использовал его деньги для других нужд. Миллиардер лишает Теслу финансирования. Тесла кидается от одного предпринимателя к другому, но получает отказы. Морган создает компанию по ликвидации технологий Тесла, отговаривая людей вкладывать средства в его проекты. Также он скупает патенты Тесла с целью не допустить распространения информации. Тесла испытывает сильную и продолжительную депрессию. Часть оборудования из Лонг Айленда вывозится за долги. Вскоре умирает мать Николы Тесла. Ученый замыкается в себе, он понимает, что дело его жизни кончено. Его сбивает машина и, поучив тяжелые травмы, Тесла угасает. Уставший и изможденный, он находит утешение в кормлении голубей у окна. Тесла скончался в ночь с 7 на 8 января 1943 года. Великий ученый и искренне честный человек, он оставался молод душой, его будут помнить еще ни одну сотню лет.</p>
+							<img class="article-img" src="amperfoto.jpg" data-bind="visible: currentArticle() == 'Amper' && currentArticlePage() == 1"/>
+							<p class="first" data-bind="visible: currentArticle() == 'Amper' && currentArticlePage() == 1">Каждый день современного человека начинается с переменного тока. Мы просыпаемся и включаем свет. Все просто, но это было бы невозможно без переменного тока. До того, как систему создал Никола Тесла, мир умел передавать по проводам ток на расстояние не более километра, с большими потерями мощности. Это была система постоянного тока, с которой работал Томас Эдисон. Идея сделать систему, в которой ток по проводам будет менять направление до 100 раз в секунду возникла у Теслы еще в институте в Гратце. он назвал это природной энергией, ведь ток изменяется по закону синуса. Им были подобраны оптимальные частоты в 50 и 60 герц и напряжения для использования в бытовых сетях в 110 и 220 вольт. Также ученый разработал систему многофазного переменного тока, применяющуюся во всем мире без изменений и по сей день. Чтобы провода передающих линий не были слишком толстыми необходимо было повышать напряжение и уменьшать ток для сохранения передаваемой мощности. Это осуществимо только с помощью переменного тока и индукционных устройств, которые изобрел Тесла. Он придумал генераторы переменного тока и великое множество моторов. Ему принадлежит идея уменьшения потерь в магнитопроводе трансформаторов, при помощи деления его на тонкие пластины. Также он придумал помещать высоковольтные трансформаторы в минеральное масло для лучшей изоляции и теплоотвода. Первую в мире электростанцию на переменном токе на Ниагарском водопаде построил он с финансовой поддержкой своего друга Вестингауза. Она вырабатывала 75 мегаватт мощности и снабжала энергией находящийся в 32 километрах город Буффало.</p>
+							<img class="article-img" src="coilfoto.jpg" data-bind="visible: currentArticle() == 'Coil' && currentArticlePage() == 1"/>
+							<p class="first" data-bind="visible: currentArticle() == 'Coil' && currentArticlePage() == 1">С этого изобретения начинается путь человечества в мир высокочастотных токов. Это катушка Тесла. Гений начал раздумывать над созданием высокочастотной машины, когда узнал о замечательных опытах Генриха Герца по экспериментальному подтверждению Теории Максвелла о существовании электромагнитных волн. Он задумал видоизменить вибратор Герца, и в итоге на свет появилось устройство, которое он запатентовал в 1895 году. Устройство именовалось в патенте, как аппарат для производства высокой частоты и потенциала.  Состояло оно из двух колебательных контуров и приспособлений для их работы. Это были: высоковольтная машина - генератор, развязывающие дроссели, не пропускающие высокочастотные токи (далее ВЧ токи) в генератор, сильноточный контур с разрядным искровым промежутком и катушка - ВЧ катушка, имеющая много витков в обмотке. Собственно, эта катушка производит самое сложное преобразование энергии электромагнитных колебаний. Суть работы была такова... Генератор вырабатывал высокое напряжение с достаточной силой тока, порядка 8000 вольт на 0,5 ампер. Далее, напряжение через дроссели поступало на конденсатор первичного контура, заряжая его через катушку с малым количеством витков толстого провода. Когда напряжение на конденсаторе возрастало до предела, в разряднике проскакивала искра, замыкая накоротко заряженный конденсатор с первичной катушкой. Это вызывало затухающие колебания с большой амплитудой. Колебания имели свою частоту, на которой вибрировал контур.Это была очень большая частота, порядка 200 000 колебаний за секунду. На эту же частоту была настроена большая катушка, находящаяся на небольшом</p>
+							<p data-bind="visible: currentArticle() == 'Coil' && currentArticlePage() == 2">расстоянии от первичной и никак с ней не связанная. В катушке было достаточно много витков, в которых наводилось большое напряжение от колебаний первичного контура. Этот ток, исходя снизу вверх, отражался от верхнего конца обмотки и следовал обратно, встречая на своем пути новую волну. Сталкиваясь в фазе много раз они порождали огромное напряжение. Тесла настраивал систему таким образом, что узлы соударения прямой и отраженной волны были наверху катушки. Когда сила колебаний в первичном контуре окажется мала, чтобы поддерживать разряд, он прервется и процесс заряда продолжится снова. Результатом этого были внушительные молнии, опоясывающие верх катушки и являющие собой необычайно завораживающее зрелище. Катушка вырабатывала напряжение в 150 000 вольт и до 1000 разрядов в секунду. Позднее, в своей лаборатории в Нью-Йорке, он совершенствовал конструкцию, доводя напряжение до полутора миллионов вольт! Позднее Тесла обнаружил, что эти высокочастотные разряды не опасны для человека, и подставлял ладонь под удары молний, пропуская через себя ток напряжением в 200 000 вольт. Затем, поднося к катушке люминесцентные лампы, он показывал их свечение без проводов. Он демонстрировал это в Британской Академии Наук, вызвав шок у наблюдающих. Совсем не многие понимали его, и люди побаивались молодого ученого. Но после этих лекций, Тесла завоевал славу и всемирную известность в научных кругах. Совместно с медиками, он изучил влияние ВЧ токов на организм человека и обнаружил их исключительно полезное влияние. Так были созданы аппараты для ВЧ терапии и хирургические аппараты для электрокоагуляции. Размышляя над Лучами Рентгена, Тесла сконструировал и запатентовал устройство для производства этих лучей, используя свою высоковольтную катушку. Оно до сих пор применяется в медицине в первозданном виде. Называется рентгеновский аппарат. Также, знаменитому ученому принадлежит первенство в создании РАДИО. Да, именно он первый изобрел аппараты для приема и передачи сообщений без проводов. Собственно, катушка Тесла, в некоторой модификации и является передатчиком. После патентования Теслой, его изобретение украл некто Маркони, использовав в передатчике сообщений через Атлантику. За это воровство, Маркони подвергался судебному преследованию Теслой до конца жизни. Суд признал первенство Тесла в создании радио. В России тоже нашелся человек, использовавший приемник Тесла для демонстрации. Это был всем известный А.С. Попов.</p>
+							<p data-bind="visible: currentArticle() == 'Coil' && currentArticlePage() == 3">Тесла весьма тщательно исследовал переменные и импульсные токи, для его творчества они представляли наибольший интерес. С помощью этих аппаратов он получал огромные напряжения в 100 миллионов вольт. Этот потолок до сих пор никто из людей не превысил.</p>
+						</div>
+						<div class="next-prev">
+							<a class="prev-link" href="#" data-bind="click: goToPrevPage, visible: currentArticlePage() > 1">предыдущая</a>
+							<a class="next-link" href="#" data-bind="click: goToNextPage, visible: currentArticle() == 'Tesla' && currentArticlePage() < 4">следующая</a>
+							<a class="next-link" href="#" data-bind="click: goToNextPage, visible: currentArticle() == 'Coil' && currentArticlePage() < 3">следующая</a>
+							<a class="next-link" href="#" data-bind="click: goToNextPage, visible: currentArticle() == 'Hand' && currentArticlePage() < 2">следующая</a>
+						</div>
+					</div>
+					<ul class="left-menu" id="lm" data-bind="visible: currentPage() == 'Buy' && (currentProductId() > 0 || currentProduct() == 'BigCoil'), foreach : products">
+						<li><a href="#" data-bind="click: function() { $root.goToProductPage(product_id, is_big); }, css: { selected: is_big == 0 && $root.currentProductId() == product_id || is_big == 1 && $root.currentProduct() == 'BigCoil'}, text: name.toUpperCase()"></a></li>
+					</ul>
+					<div class="products-list-block" data-bind="visible: currentPage() == 'Buy' && currentProductId() == 0 && currentProduct()!='BigCoil', foreach: products">
+						<div class="product-inlist-block" data-bind="click: function() { $root.goToProductPage(product_id, is_big); }">
+							<img class="product-inlist-img" data-bind="attr: {src: 'http://tesla-wave.ru/server/show_photo.php?id='+product_id}"/>
+							<div class="product-inlist-shortdesc">
+								<div class="product-inlist-name" data-bind="text: name.toUpperCase()"></div>
+							   <div class="product-inlist-price" data-bind="visible: is_big == 0, text: parseFloat(price).toFixed(0)+' руб.'"></div>
+								<div data-bind="attr: {class:'product-inlist-status '+$root.getColorClassByState(stock_status_id)}, text: status_name.toUpperCase()"></div>
+							</div>
+						</div>
+					</div>
+					<div class="center-block" data-bind="visible: currentPage() == 'Video' || currentPage() == 'Order' || currentPage() == 'Contact'">
+						<div class="video-block" data-bind="visible: currentPage() == 'Video'">
+							<div id="embed-video"></div>
+							<p data-bind="text: videoDesc()"></p>
+						</div>
+						<div data-bind="visible: currentPage() == 'Order'" class="order-block">
+							<div class="order-form-block" data-bind="visible: orderStatus() == 'Cart'">
+								<form action="self" class="order-form">
+									  <div><span>Ваше имя:</span><input type="text" maxlength="100" data-bind="value: orderFIO, valueUpdate: 'input'"/>    </div>
+									  <div><span>Номер телефона:</span><input type="text" maxlength="40" data-bind="value: orderPhone, valueUpdate: 'input'"/>   </div>
+									  <div><span>Адрес электронной почты:</span><input type="text" maxlength="100" data-bind="value: orderEmail, valueUpdate: 'input'"/>  </div>
+									  <div><span>Наименование товара:</span><input type="text" maxlength="2" data-bind="value: orderProductName() , valueUpdate: 'input'"/></div>
+									  <div><span>Количество товара, штук:</span><input type="text" maxlength="2" data-bind="value: orderCount, valueUpdate: 'input'"/></div>
+									  <div><span>Стоимость, руб.:</span><input type="text" maxlength="7" data-bind="value: orderCost(), valueUpdate: 'input'"/></div>
+									  <div><span>Способ доставки:</span><input type="text" maxlength="100" data-bind="value: orderDeliveryType, valueUpdate: 'input'"/>    </div>
+									  <div class="addition"> <span>Дополнительная информация:  </span>
+									  <textarea data-bind="value: orderComments, valueUpdate: 'input'" maxlength="255"></textarea>     </div>
+									  <div class="send-link-block"><a class="send-link" href="#" data-bind="click: sendOrder">ОТПРАВИТЬ</a></div>
+								</form>
+							</div>
+							<div class="order-sent" data-bind="visible: orderStatus() == 'Sent'">
+								<div class="order-sent-inner">ВАШ ЗАКАЗ ПРИНЯТ. В БЛИЖАЙШЕЕ ВРЕМЯ МЫ СВЯЖЕМСЯ С ВАМИ</div>
+							</div>
+						   <div class="delivery-notes">Доставка товара бесплатная. По Москве в пределах МКАД осуществляется курьером. В другие регионы России, стран СНГ почтой. Оплатить товар Вы можете через Сбербанк России или любой другой банк.</div>
+						</div>
+						<div data-bind="visible: currentPage() == 'Contact'" class="contacts-block">
+							<div class="contacts-block-inner">
+								НАШИ КОНТАКТЫ<br/>  <br/>
+								электронная почта: <img height="18px" src="email-value.png"/><br/> <br/>
+								<img height="18px" src="/phone-value.png"/>     <br/> <br/>
+								ежедневно с 10:00 до 19:00
+							</div>
+						</div>
+					</div>
+					<div class="rent-block" data-bind="visible: currentPage() == 'Buy' && currentProductId() > 0 && currentProduct()!='BigCoil'">
+						<div class="rent-block-up"></div>
+							<div class="buy-block">
+								<div class="buy-left-part">
+									<div class="product-img-block">
+										<a class="image-popup-fit-width" data-bind="attr: {href: typeof(productPics()[currentProductPic()])!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+productPics()[currentProductPic()].image_id : 'about:blank', title: typeof(products()[getProductIndexById(currentProductId())])!='undefined' ? products()[getProductIndexById(currentProductId())].name.toUpperCase() : ''}">
+											<img class="product-img" data-bind="attr : {src: typeof(productPics()[currentProductPic()])!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+productPics()[currentProductPic()].image_id : 'about:blank'}"/>
+										</a>
+									</div>
+									<div class="product-prev" data-bind="foreach: productPics">
+										<!-- ko if : $index() < 4 -->
+											<a href="#" data-bind="click: function() {$root.setCurrentProductPic($index()); }">
+												<img data-bind="attr : {class: $index() == $root.currentProductPic() ? 'active' : '', src: typeof(image_id)!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+image_id : 'about:blank'}"/>
+										   </a>
+										<!-- /ko -->
+									</div>
+									<div class="product-prev" data-bind="foreach: productPics">
+										<!-- ko if : $index() >= 4 && $index() < 8 -->
+											<a href="#" data-bind="click: function() {$root.setCurrentProductPic($index()); }">
+												<img data-bind="attr : {class: $index() == $root.currentProductPic() ? 'active' : '', src: typeof(image_id)!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+image_id : 'about:blank'}"/>
+										   </a>
+										<!-- /ko -->
+									</div>
+									<div class="product-include" data-bind="text: typeof(products()[getProductIndexById(currentProductId())])!='undefined'? products()[getProductIndexById(currentProductId())].kit_description : ''"></div>
+								</div>
+								<div class="buy-right-part">
+									<div class="product-desc">
+										<p class="head" data-bind="text: typeof(products()[getProductIndexById(currentProductId())])!='undefined'? products()[getProductIndexById(currentProductId())].name.toUpperCase() : ''"></p>
+										<span class="text" data-bind="text: typeof(products()[getProductIndexById(currentProductId())])!='undefined'? products()[getProductIndexById(currentProductId())].description.toString() : ''"></span>
+									</div>
+									<div class="product-state ps-no" >
+										<div data-bind="visible: typeof(products()[getProductIndexById(currentProductId())])!='undefined' ? products()[getProductIndexById(currentProductId())].stock_status_id == 9 : false,
+											 text: typeof(products()[getProductIndexById(currentProductId())])!='undefined' ? products()[getProductIndexById(currentProductId())].status_name.toUpperCase() : ''">
+									</div>
+								</div>
+								<div class="product-state ps-yes" >
+									<div data-bind="visible: typeof(products()[getProductIndexById(currentProductId())])!='undefined' ? products()[getProductIndexById(currentProductId())].stock_status_id == 7 : false,
+													 text: typeof(products()[getProductIndexById(currentProductId())])!='undefined' ? products()[getProductIndexById(currentProductId())].status_name.toUpperCase() : ''">
+									</div>
+								</div>
+								<div class="product-state ps-avail" >
+									<div data-bind="visible: typeof(products()[getProductIndexById(currentProductId())])!='undefined' ? products()[getProductIndexById(currentProductId())].stock_status_id == 10 : false,
+													 text: typeof(products()[getProductIndexById(currentProductId())])!='undefined' ? products()[getProductIndexById(currentProductId())].status_name.toUpperCase() : ''">
+									</div>
+								</div>
+								<div class="price-block" data-bind="text: typeof(products()[getProductIndexById(currentProductId())])!='undefined'? parseFloat(products()[getProductIndexById(currentProductId())].price).toFixed(0)+' руб.' : '0'">
+								</div>
+								<div class="phone-order">
+									ТОВАР МОЖНО ЗАКАЗАТЬ ПО ТЕЛЕФОНУ: <img height="14px" src="phone-value-white.png"/>
+								</div>
+								<div class="order-desc">
+									<span class="order-link-desc">Также можно сделать заказ, оставив заявку на сайте</span> <a href=#" data-bind="click: navigateToOrder" class="order-link"><span>здесь</span></a>
+								</div>
+								<div class="delivery-desc">
+									Доставка товара курьером по Москве в пределах МКАД - бесплатная. В другие регионы России - почтой бесплатно.
+								</div>
+								<div class="email-desc">
+									По всем вопросам обращайтесь по адресу <img height="15px" src="email-value-white.png"/>
+								</div>
+								<div class="video-desc" data-bind="visible:  typeof(products()[getProductIndexById(currentProductId())])!='undefined' && products()[getProductIndexById(currentProductId())].video_cnt > 0">
+									<span class="video-link-desc">Посмотреть, как работает Катушка Тесла можно здесь:</span> <a href="#" data-bind="click: function() { goToVideo(currentProductId()); }" class="video-link"><span>видео</span></a>
+								</div>
+						</div>
+						<div class="info-notes">информация, указанная на сайте не является публичной офертой, наличие товара уточняйте по телефону</div>
+						</div>
+						<div class="rent-block-down"></div>
+				</div>
+				<div class="rent-block" data-bind="visible: currentPage() == 'Buy' && currentProduct() == 'BigCoil'">
+					<div class="rent-block-up"></div>
+						<img class="big-product-image" data-bind="visible: typeof(bigProductData())!='undefined', attr : {src: typeof(bigProductData())!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+ bigProductData().image_id : 'about:blank'}"/>
+						<p data-bind="text: typeof(bigProductData())!='undefined' ? bigProductData().description : ''"></p>
+						<p><img height="14px" src="/phone-value-white.png"/><br/><br/></p>
+						<!-- ko foreach : bigProductPics -->
+							<!-- ko if : $index() < 1 --><img class="big-product-image" data-bind="attr : {src: typeof(image_id)!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+ image_id : 'about:blank'}"/>
+							<!-- /ko -->
+						<!-- /ko -->
+						<div id="embed-video-big"></div>
+					<div class="rent-block-down"></div>
+				</div>
+				<div class="gallery-block" data-bind="visible: currentPage() == 'Gallery' && galleryType() == 'MainGallery'">
+					<div class="gallery-type-block">
+						<a href="/gallery/photos" data-bind="click: navigateToPhotos"><img class="gallery-type-img" src="big-2.jpg"/></a>
+						<div class="g-type-l-block"><a class="gallery-type-link" href="/gallery/photos" data-bind="click: navigateToPhotos">ФОТО</a></div>
+					</div>
+					<div class="gallery-type-block">
+						<a href="/gallery/videos" data-bind="click: navigateToVideos"><img class="gallery-type-img" src="print-video.jpg"/></a>
+						<div class="g-type-l-block"><a class="gallery-type-link" href="/gallery/videos" data-bind="click: navigateToVideos">ВИДЕО</a></div>
+					</div>
+				</div>
+				<div class="gallery-selected-block" data-bind="visible: currentPage() == 'Gallery' && galleryType() == 'PhotoGallery'">
+					<link rel="stylesheet" type="text/css" href="magnific-popup.css" />
+
+					<div class="gallery-title-block" data-bind="text: galleryTitle()"></div>
+					<a class="image-popup-fit-width" data-bind="attr: {href: typeof(galleryPhotos()[currentGalleryPhoto()])!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+galleryPhotos()[currentGalleryPhoto()].image_id : 'about:blank', title: typeof(galleryPhotos()[currentGalleryPhoto()])!='undefined' ? galleryPhotos()[currentGalleryPhoto()].text : ''}"><img class="main-gallery-photo" data-bind="attr :
+									{src: typeof(galleryPhotos()[currentGalleryPhoto()])!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+galleryPhotos()[currentGalleryPhoto()].image_id : 'about:blank', alt : typeof(galleryPhotos()[currentGalleryPhoto()])!='undefined' ? galleryPhotos()[currentGalleryPhoto()].text : ''}"/> </a>
+					<div class="gallery-desc-block">
+						<p data-bind="text: typeof(galleryPhotos()[currentGalleryPhoto()])!='undefined' ? galleryPhotos()[currentGalleryPhoto()].text : ''"></p>
+					</div>
+						<div class="product-prev">
+						<div class="prev-link-block" style="display:inline-table;width:28px;vertical-align:top;">&nbsp;
+							<a href="#" class="prev-link-gallery" data-bind="click: function() {$root.currentStartGalleryPhoto($root.currentStartGalleryPhoto()-1);}, visible: $root.currentStartGalleryPhoto() > 0">&nbsp;</a>
+						</div>
+						<!-- ko foreach: galleryPhotos -->
+						   <a href="#" data-bind="visible: $index() >= $root.currentStartGalleryPhoto() && $index() < $root.currentStartGalleryPhoto() + $root.galleryPhotosOnPage, click: function() {$root.setCurrentGalleryPhoto($index()); }"><img data-bind="attr :
+							{class: $index() == $root.currentGalleryPhoto() ? 'active' : '', src: typeof(image_id)!='undefined' ? 'http://tesla-wave.ru/server/show_photo.php?id='+image_id : 'about:blank'}"/>
+						   </a>
+						<!-- /ko -->
+						<div class="prev-link-block" style="display:inline-table;width:28px;vertical-align:top;">&nbsp;<a href="#" class="next-link-gallery" data-bind="click: function() {$root.currentStartGalleryPhoto($root.currentStartGalleryPhoto()+1);}, visible: $root.currentStartGalleryPhoto() < $root.galleryPhotos().length - $root.galleryPhotosOnPage">&nbsp;</a></div>
+						</div>
+
+				</div>
+
+				<div class="gallery-selected-block" data-bind="visible: currentPage() == 'Gallery' && galleryType() == 'VideoGallery'">
+					<div class="gallery-title-block" data-bind="text: galleryTitle()"></div>
+					<div id="gallery-embed-video"></div>
+					<div class="gallery-desc-block">
+						<p data-bind="text: typeof(galleryVideos()[currentGalleryVideo()])!='undefined' ? galleryVideos()[currentGalleryVideo()].text : ''"></p>
+					</div>
+					<div class="product-prev" data-bind="foreach: galleryVideos">
+						<a href="#" data-bind="click: function() {$root.setCurrentGalleryVideo($index()); }"><img data-bind="attr :
+						{class: $index() == $root.currentGalleryVideo() ? 'active' : '', src: 'print-video.jpg'}"/>
+					   </a>
+					</div>
+				</div>
+			</div>
+			<div class="rights-footer">Вся информация, размещенная на данном сайте является собственностью ее правообладателей. Любое коммерческое использование информации, текстов, изображений, размещенных на сайте запрещено без письменного согласия правообладателей. Размещение любых материалов, находящихся на сайте исключительно в некоммерческих информационных целях разрешено только с обязательным указанием ссылки на сайт.</div>
+		</div>
+        <script type="text/javascript" language="JavaScript">var local_version = true;</script>
+		<script type="text/javascript" language="JavaScript" src="scripts/main.js"></script>
+	</body>
+</html>

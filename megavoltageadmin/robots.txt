@@ -1,0 +1,4 @@
+User-Agent: * 
+Disallow: /java/
+Disallow: /opros/
+

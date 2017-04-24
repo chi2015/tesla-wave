@@ -1,0 +1,9 @@
+2013-12-17 17:10:06 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />UPDATE oc_currency SET value = '1.00000', date_modified = '2013-12-17 17:10:06' WHERE code = 'USD' in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/system/database/mysql.php on line 50
+2014-05-03 18:04:35 - PHP Notice:  Undefined variable: text_gallery in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/admin/view/template/common/header.tpl on line 71
+2014-05-03 18:04:57 - PHP Notice:  Undefined variable: text_gallery in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/admin/view/template/common/header.tpl on line 71
+2014-10-31 17:32:58 - PHP Notice:  Undefined index: kit_description in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/admin/view/template/catalog/product_form.tpl on line 59
+2014-10-31 17:32:58 - PHP Notice:  Undefined index: kit_description in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/admin/view/template/catalog/product_form.tpl on line 59
+2014-10-31 17:35:05 - PHP Notice:  Undefined index: kit_description in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/admin/view/template/catalog/product_form.tpl on line 59
+2014-10-31 17:35:05 - PHP Notice:  Undefined index: kit_description in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/admin/view/template/catalog/product_form.tpl on line 59
+2014-10-31 17:35:53 - PHP Notice:  Undefined index: kit_description in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/admin/view/template/catalog/product_form.tpl on line 59
+2014-10-31 17:35:53 - PHP Notice:  Undefined index: kit_description in /var/www/vh131064/data/www/tesla-wave.ru/megavoltageadmin2/admin/view/template/catalog/product_form.tpl on line 59

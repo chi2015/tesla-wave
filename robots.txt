@@ -1,0 +1,26 @@
+User-agent: Yandex
+Crawl-delay: 2
+Disallow: /server/
+Disallow: /imageresize/
+Disallow: /scripts/
+Disallow: /webstat/
+Disallow: /conf.php
+
+User-agent: Googlebot
+Crawl-delay: 4
+Disallow: /server/
+Disallow: /imageresize/
+Disallow: /scripts/
+Disallow: /webstat/
+Disallow: /conf.php
+
+User-agent: *
+Crawl-delay: 6
+Disallow: /server/
+Disallow: /imageresize/
+Disallow: /scripts/
+Disallow: /webstat/
+Disallow: /conf.php
+
+Sitemap: http://tesla-wave.ru/sitemap.xml
+Host: tesla-wave.ru
