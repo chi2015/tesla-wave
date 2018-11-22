@@ -21,9 +21,9 @@
 				<ul class="upper-menu" id="rm">
 					<li><a href="/" class="main-menu-link" data-bind="click: goToMain, css: { selected: currentPage() == 'Main'}">цкюбмюъ</a></li>
 					<li><a href="/art" class="main-menu-link" data-bind="click: navigateToArt, css: { selected: currentPage() == 'Art'}">ярюрэх</a></li>
-					<li><a href="/buy" class="main-menu-link" data-bind="click: navigateToBuy, css: { selected: currentPage() == 'Buy'}">йсохрэ</a></li>
+					<!--<li><a href="/buy" class="main-menu-link" data-bind="click: navigateToBuy, css: { selected: currentPage() == 'Buy'}">йсохрэ</a></li>-->
 					<li><a href="/gallery" class="main-menu-link" data-bind="click: navigateToGallery, css: { selected: currentPage() == 'Gallery'}">цюкепеъ</a></li>
-					<li><a href="/contact" class="main-menu-link" data-bind="click: navigateToContact, css: { selected: currentPage() == 'Contact'}">йнмрюйрш</a></li>
+					<!--<li><a href="/contact" class="main-menu-link" data-bind="click: navigateToContact, css: { selected: currentPage() == 'Contact'}">йнмрюйрш</a></li>-->
 				</ul>
 				<div class="middle-block">
 					<div class="main-left-block" data-bind="visible: currentPage() == 'Main' ||  currentPage() == ''">
@@ -78,7 +78,7 @@
 						<p data-bind="text: videoDesc()"></p>
 					</div>
 					</div>
-					<div class="center-block" data-bind="visible: currentPage() == 'Order' || currentPage() == 'Contact'">
+					<!--<div class="center-block" data-bind="visible: currentPage() == 'Order' || currentPage() == 'Contact'">
 						
 						<div data-bind="visible: currentPage() == 'Order'" class="order-block">
 							<div class="order-form-block" data-bind="visible: orderStatus() == 'Cart'">
@@ -109,7 +109,7 @@
 								ЕФЕДМЕБМН Я 10:00 ДН 19:00
 							</div>
 						</div>
-					</div>
+					</div>-->
 					<div class="rent-block" data-bind="visible: currentPage() == 'Buy' && currentProductId() > 0 && currentProduct()!='BigCoil'">
 						<div class="rent-block-up"></div>
 							<div class="buy-block">
