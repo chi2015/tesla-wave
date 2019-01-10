@@ -33,7 +33,7 @@ AND ad.name LIKE 'video_%'
 					FROM oc_product p
 					LEFT JOIN oc_product_description pd USING ( product_id )
 					LEFT JOIN oc_stock_status ss USING ( stock_status_id)
-					WHERE p.product_id IN (".join(",",$_AVAILABLE_PRODUCTS).")
+					WHERE p.status = 1
 					AND pd.language_id = 1 AND ss.language_id = 1 ORDER BY price";
 			break;
 		case 'photos':
@@ -77,7 +77,7 @@ AND ad.name LIKE 'video_%'
 						LEFT JOIN oc_product_attribute pa
 						USING ( product_id )
 						LEFT JOIN oc_attribute_description ad ON ad.attribute_id = pa.attribute_id
-						WHERE pi.product_id IN (".join(",",$_AVAILABLE_PRODUCTS).")
+						WHERE pi.product_id IN (SELECT product_id FROM oc_product WHERE status = 1)
 						AND pa.language_id =1
 						AND ad.language_id =1
 						AND ad.name = pi.image
@@ -87,7 +87,7 @@ AND ad.name LIKE 'video_%'
 					  	FROM oc_product p LEFT JOIN oc_product_attribute pa
 						USING ( product_id )
 						LEFT JOIN oc_attribute_description ad ON ad.attribute_id = pa.attribute_id
-						WHERE p.product_id IN (".join(",",$_AVAILABLE_PRODUCTS).")
+						WHERE p.product_id IN (SELECT product_id FROM oc_product WHERE status = 1)
 						AND pa.language_id =1
 						AND ad.language_id =1
 						AND ad.name = p.image
@@ -98,7 +98,7 @@ AND ad.name LIKE 'video_%'
 			$query = "SELECT ad.name, pa.text
 					  	FROM oc_product_attribute pa LEFT JOIN oc_attribute_description ad
 						USING ( attribute_id )
-						WHERE pa.product_id IN (".join(",",$_AVAILABLE_PRODUCTS).")
+						WHERE pa.product_id IN (SELECT product_id FROM oc_product WHERE status = 1)
 						AND pa.language_id =1
 						AND ad.language_id =1
 						AND ad.name LIKE 'video_%'
