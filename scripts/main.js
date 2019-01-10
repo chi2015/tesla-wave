@@ -1,8 +1,8 @@
 var CoilRouter = Backbone.Router.extend({
 	routes : {
 		"" : "goToMain",
-		//"buy" : "goToBuy",
-		//"buy/:id" : "goToBuy",
+		"buy" : "goToBuy",
+		"buy/:id" : "goToBuy",
 		"art" : "goToArt",
 		"art/:num" : "goToArt",
 		"art/:num/:page" : "goToArt",
@@ -11,9 +11,9 @@ var CoilRouter = Backbone.Router.extend({
 		"gallery/videos" : "goToVideos",
 		"gallery/video/:id" : "goToVideo",
 		//"contact" : "goToContact",
-		//"order" : "goToOrder",
-		//"order/:id" : "goToOrder",
-		//"sent" : "goToSent"
+		"order" : "goToOrder",
+		"order/:id" : "goToOrder",
+		"sent" : "goToSent"
 	},
 	localNavigate : function(route) {
 		this[this.routes[route]]();
