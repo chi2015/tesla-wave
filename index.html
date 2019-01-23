@@ -19,11 +19,11 @@
 		<div class="main-block" data-bind="css: { 'middle-bottom' : currentPage() == 'Main' ||  currentPage() == ''}">
 			<a href="/" class="logo-top"></a>
 				<ul class="upper-menu" id="rm">
-					<!--<li><a href="/" class="main-menu-link" data-bind="click: goToMain, css: { selected: currentPage() == 'Main'}">ГЛАВНАЯ</a></li>-->
+					<li><a href="/" class="main-menu-link" data-bind="click: goToMain, css: { selected: currentPage() == 'Main'}">ГЛАВНАЯ</a></li>
 					<li><a href="/art" class="main-menu-link" data-bind="click: navigateToArt, css: { selected: currentPage() == 'Art'}">СТАТЬИ</a></li>
 					<li><a href="/buy" class="main-menu-link" data-bind="click: navigateToBuy, css: { selected: currentPage() == 'Buy'}">КУПИТЬ</a></li>
 					<li><a href="/gallery" class="main-menu-link" data-bind="click: navigateToGallery, css: { selected: currentPage() == 'Gallery'}">ГАЛЕРЕЯ</a></li>
-					<!--<li><a href="/contact" class="main-menu-link" data-bind="click: navigateToContact, css: { selected: currentPage() == 'Contact'}">КОНТАКТЫ</a></li>-->
+					<li><a href="/contact" class="main-menu-link" data-bind="click: navigateToContact, css: { selected: currentPage() == 'Contact'}">КОНТАКТЫ</a></li>
 				</ul>
 				<div class="middle-block">
 					<div class="main-left-block" data-bind="visible: currentPage() == 'Main' ||  currentPage() == ''">
@@ -101,14 +101,14 @@
 							</div>
 						   <div class="delivery-notes">Доставка товара бесплатная. По Москве в пределах МКАД осуществляется курьером. В другие регионы России, стран СНГ почтой. Оплатить товар Вы можете через Сбербанк России или любой другой банк.</div>
 						</div>
-						<!--<div data-bind="visible: currentPage() == 'Contact'" class="contacts-block">
+						<div data-bind="visible: currentPage() == 'Contact'" class="contacts-block">
 							<div class="contacts-block-inner">
 								НАШИ КОНТАКТЫ<br/>  <br/>
-								электронная почта: <img height="18px" src="/email-value.png"/><br/> <br/>
-								<img height="18px" src="/phone-value.png"/>     <br/> <br/>
+								<!--электронная почта: <img height="18px" src="/email-value.png"/>--><br/> <br/>
+								<img class="phone-value" src="/phone-value.png"/>     <br/> <br/>
 								ежедневно с 10:00 до 19:00
 							</div>
-						</div>-->
+						</div>
 					</div>
 					<div class="rent-block" data-bind="visible: currentPage() == 'Buy' && currentProductId() > 0 && currentProduct()!='BigCoil'">
 						<div class="rent-block-up"></div>

@@ -10,7 +10,7 @@ var CoilRouter = Backbone.Router.extend({
 		"gallery/photos" : "goToPhotos",
 		"gallery/videos" : "goToVideos",
 		"gallery/video/:id" : "goToVideo",
-		//"contact" : "goToContact",
+		"contact" : "goToContact",
 		"order" : "goToOrder",
 		"order/:id" : "goToOrder",
 		"sent" : "goToSent"

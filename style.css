@@ -431,7 +431,6 @@ ul.upper-menu {
 	display: block;
 	height: 51px;
 	width: 100%;
-	padding-left: 266px;
 }
 
 ul.upper-menu li {
@@ -595,6 +594,11 @@ ul.left-menu li a.selected {
 	width: 394px;
 	height: 215px;
 
+}
+
+.phone-value {
+	filter: invert(100%);
+	height: 36px;
 }
 
 .rent-block-up {
