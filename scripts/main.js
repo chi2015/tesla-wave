@@ -180,11 +180,11 @@ CoilModel.getColorClassByState = function(state)
 {
 	switch(parseInt(state))
 	{
-		case 5: 
 		case 6:
 		case 7: return 'state-green';
+		case 5: return 'state-red';
 		case 8:
-		case 9:  return 'state-red';
+		case 9:  
 		case 10: return 'state-orange';
 	}
 }
