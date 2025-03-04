@@ -1,5 +1,0 @@
-AddDefaultCharset cp-1251
-
-DirectoryIndex index index.html index.html.var index.php index.php3
-
-RewriteRule . index

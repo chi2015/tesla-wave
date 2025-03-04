@@ -1,1 +1,0 @@
-<li class="item50"><a href="/page/@catalogId@.html" title="@catalogTitle@ - @catalogName@"><span>@catalogName@</span></a></li>

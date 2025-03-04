@@ -1,1 +1,0 @@
-<li class="catalog"><a href="@catalogLink@" title="@catalogTitle@ - @catalogName@">@catalogName@</a></li>

@@ -1,1 +1,0 @@
-<li><a href="/shop/CID_@catalogId@_@catalogtLatName@.html" title="@catalogTitle@ - @catalogName@"><span>@catalogName@</span></a></li>
