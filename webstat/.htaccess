@@ -1,7 +1,0 @@
-AuthType Basic
-AuthName "/www/tesla-wave.ru/webstat"
-AuthUserFile /var/www/vh131064/data/etc/6327385.passwd
-DirectoryIndex index.html
-<Limit GET POST>
-	require valid-user
-</Limit>
